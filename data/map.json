@@ -1,0 +1,24 @@
+{
+    "diseaseMapping": {
+      "Diabetes": "मधुमेह",
+      "Hypertension": "उच्च रक्तचाप",
+      "Asthma": "अस्थमा",
+      "Influenza": "फ्लू",
+      "Migraine": "माइग्रेन",
+      "Ringworm": "दाद",
+      "Malaria": "मलेरिया",
+      "Cancer": "कैंसर",
+      "Breast Cancer": "स्तन कैंसर",
+      "Lung Cancer": "फेफड़ों का कैंसर",
+      "Gastritis": "गैस्ट्राइटिस",
+      "Gastroesophageal Reflux Disease (GERD)": "गैस्ट्रोइसोफेगल रिफ्लक्स रोग",
+      "Dengue Fever": "डेंगू बुखार",
+      "Chronic Obstructive Pulmonary Disease (COPD)": "क्रॉनिक ऑब्स्ट्रक्टिव पल्मोनरी डिजीज",
+      "Hepatitis": "हेपेटाइटिस",
+      "Diarrhea": "दस्त",
+      "Typhoid": "टाइफाइड",
+      "Cardiovascular Diseases": "हृदय रोग",
+      "Piles": "बवासीर"
+    }
+  }
+  

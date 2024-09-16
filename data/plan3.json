@@ -1,0 +1,440 @@
+{
+    "personalizedPlan":[
+        {
+            "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "goal": "To support lung function, improve respiratory health, and maintain overall nutrition",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Oatmeal with berries",
+                  "portion": "1 cup",
+                  "notes": "Rich in fiber and antioxidants, helps with digestion and overall health"
+                },
+                {
+                  "item": "Scrambled eggs with spinach",
+                  "portion": "2 eggs, 1/2 cup spinach",
+                  "notes": "Provides protein and vitamins, supports muscle health"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled chicken breast with quinoa",
+                  "portion": "150g chicken, 1/2 cup quinoa",
+                  "notes": "Lean protein and complex carbs, supports energy levels and muscle function"
+                },
+                {
+                  "item": "Mixed vegetable salad with olive oil",
+                  "portion": "2 cups salad, 1 tbsp olive oil",
+                  "notes": "High in vitamins and healthy fats, promotes heart health and reduces inflammation"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked fish with steamed broccoli",
+                  "portion": "150g fish, 1 cup broccoli",
+                  "notes": "Lean protein and fiber-rich vegetables, good for respiratory health"
+                },
+                {
+                  "item": "Sweet potato",
+                  "portion": "1 medium",
+                  "notes": "Provides complex carbohydrates and vitamins, helps maintain energy levels"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Almonds",
+                  "portion": "1/4 cup",
+                  "notes": "Healthy fats and protein, supports overall health"
+                },
+                {
+                  "item": "Fresh fruit (e.g., apple or pear)",
+                  "portion": "1 medium fruit",
+                  "notes": "Provides vitamins and fiber, helps with hydration"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching or breathing exercises",
+                "duration": "20 minutes",
+                "notes": "Improves flexibility and lung function, enhances breathing efficiency"
+              },
+              "afternoonExercise": {
+                "activity": "Low-impact walking",
+                "duration": "20-30 minutes",
+                "notes": "Boosts cardiovascular health and overall stamina without excessive strain"
+              },
+              "eveningExercise": {
+                "activity": "Relaxation techniques or light yoga",
+                "duration": "15-20 minutes",
+                "notes": "Reduces stress and promotes better sleep quality"
+              }
+            }
+          },
+          {
+            "disease": "Hepatitis",
+            "goal": "To support liver function, manage symptoms, and promote overall health",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Oatmeal with berries",
+                  "portion": "1 cup",
+                  "notes": "Rich in fiber and antioxidants, supports liver health and digestion"
+                },
+                {
+                  "item": "Greek yogurt with honey",
+                  "portion": "1/2 cup",
+                  "notes": "Provides protein and probiotics, helps with gut health"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled chicken breast with brown rice",
+                  "portion": "150g chicken, 1/2 cup rice",
+                  "notes": "Lean protein and complex carbs, supports liver function and energy levels"
+                },
+                {
+                  "item": "Steamed vegetables (e.g., broccoli, carrots)",
+                  "portion": "1 cup",
+                  "notes": "High in vitamins and minerals, aids in liver detoxification"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked fish with quinoa",
+                  "portion": "150g fish, 1/2 cup quinoa",
+                  "notes": "Rich in omega-3s and protein, supports liver health"
+                },
+                {
+                  "item": "Mixed green salad with olive oil",
+                  "portion": "2 cups salad, 1 tbsp olive oil",
+                  "notes": "Provides antioxidants and healthy fats, helps reduce inflammation"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Apple slices with almond butter",
+                  "portion": "1 medium apple, 1 tbsp almond butter",
+                  "notes": "Provides fiber and healthy fats, supports overall health"
+                },
+                {
+                  "item": "Carrot sticks with hummus",
+                  "portion": "1 cup carrot sticks, 1/4 cup hummus",
+                  "notes": "High in fiber and protein, aids in liver health"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle yoga or stretching",
+                "duration": "20 minutes",
+                "notes": "Improves flexibility and reduces stress, supports liver function"
+              },
+              "afternoonExercise": {
+                "activity": "Moderate walking",
+                "duration": "20-30 minutes",
+                "notes": "Boosts circulation and overall wellness, helps maintain healthy weight"
+              },
+              "eveningExercise": {
+                "activity": "Relaxation techniques or deep breathing exercises",
+                "duration": "15 minutes",
+                "notes": "Helps with stress management and promotes better sleep"
+              }
+            }
+          },
+          {
+            "disease": "Diarrhea",
+            "goal": "To manage symptoms, stay hydrated, and support digestive health",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Plain toast or rice cakes",
+                  "portion": "1-2 slices or cakes",
+                  "notes": "Easy on the stomach, helps bind stools"
+                },
+                {
+                  "item": "Banana",
+                  "portion": "1 medium",
+                  "notes": "Rich in potassium, helps replenish electrolytes"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Boiled or steamed chicken breast",
+                  "portion": "100g",
+                  "notes": "Lean protein, easy to digest"
+                },
+                {
+                  "item": "Plain white rice",
+                  "portion": "1/2 cup",
+                  "notes": "Easy on the stomach, helps bind stools"
+                },
+                {
+                  "item": "Steamed carrots or applesauce",
+                  "portion": "1/2 cup",
+                  "notes": "Gentle on the digestive system"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked or grilled fish",
+                  "portion": "100g",
+                  "notes": "Lean protein, easy to digest"
+                },
+                {
+                  "item": "Mashed potatoes",
+                  "portion": "1/2 cup",
+                  "notes": "Easily digestible, helps bind stools"
+                },
+                {
+                  "item": "Clear broth or soup",
+                  "portion": "1 cup",
+                  "notes": "Helps with hydration and provides nutrients"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Plain crackers",
+                  "portion": "1/2 cup",
+                  "notes": "Easy on the stomach, helps with binding"
+                },
+                {
+                  "item": "Applesauce",
+                  "portion": "1/2 cup",
+                  "notes": "Gentle on the digestive system"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching",
+                "duration": "10-15 minutes",
+                "notes": "Helps with gentle movement and relaxation"
+              },
+              "afternoonExercise": {
+                "activity": "Short, brisk walk",
+                "duration": "10-20 minutes",
+                "notes": "Boosts digestion and helps maintain circulation"
+              },
+              "eveningExercise": {
+                "activity": "Rest and relaxation",
+                "duration": "20 minutes",
+                "notes": "Allows the digestive system to rest and recover"
+              }
+            }
+          },
+          {
+            "disease": "Typhoid Fever",
+            "goal": "To manage symptoms, support recovery, and maintain hydration and nutrition",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Boiled rice porridge",
+                  "portion": "1 cup",
+                  "notes": "Easy to digest and helps maintain hydration"
+                },
+                {
+                  "item": "Clear broth or chicken soup",
+                  "portion": "1 cup",
+                  "notes": "Provides hydration and essential nutrients"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Plain rice",
+                  "portion": "1 cup",
+                  "notes": "Easily digestible and gentle on the stomach"
+                },
+                {
+                  "item": "Boiled or steamed vegetables (e.g., carrots, potatoes)",
+                  "portion": "1/2 cup",
+                  "notes": "Provides vitamins and minerals while being gentle on the digestive system"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Steamed fish or chicken breast",
+                  "portion": "100g",
+                  "notes": "Lean protein, easy to digest"
+                },
+                {
+                  "item": "Mashed potatoes or plain noodles",
+                  "portion": "1/2 cup",
+                  "notes": "Gentle on the stomach and helps with nutrition"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Clear apple juice or electrolyte drink",
+                  "portion": "1 cup",
+                  "notes": "Helps maintain hydration and replenish electrolytes"
+                },
+                {
+                  "item": "Banana",
+                  "portion": "1 medium",
+                  "notes": "Rich in potassium, easy to digest"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching",
+                "duration": "10 minutes",
+                "notes": "Helps with mild movement and relaxation"
+              },
+              "afternoonExercise": {
+                "activity": "Short walk or rest",
+                "duration": "10-15 minutes",
+                "notes": "Encourages gentle activity without overexertion"
+              },
+              "eveningExercise": {
+                "activity": "Rest and relaxation",
+                "duration": "15-20 minutes",
+                "notes": "Focus on relaxation to aid recovery"
+              }
+            }
+          },
+          {
+            "disease": "Cardiovascular Diseases",
+            "goal": "To support heart health, manage cholesterol levels, and maintain overall cardiovascular wellness",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Oatmeal with fresh berries and nuts",
+                  "portion": "1 cup",
+                  "notes": "Rich in fiber and antioxidants, supports heart health"
+                },
+                {
+                  "item": "Whole grain toast with avocado",
+                  "portion": "1 slice",
+                  "notes": "Provides healthy fats and fiber"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled salmon with quinoa and mixed greens",
+                  "portion": "150g salmon, 1/2 cup quinoa, 2 cups greens",
+                  "notes": "Omega-3 fatty acids from salmon, fiber from quinoa, and vitamins from greens"
+                },
+                {
+                  "item": "Chickpea and vegetable salad",
+                  "portion": "1 cup",
+                  "notes": "High in fiber and protein, low in saturated fat"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked chicken breast with sweet potato and steamed broccoli",
+                  "portion": "150g chicken, 1 medium sweet potato, 1 cup broccoli",
+                  "notes": "Lean protein, complex carbs, and fiber-rich vegetables"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Apple slices with almond butter",
+                  "portion": "1 medium apple, 1 tbsp almond butter",
+                  "notes": "Healthy fats and fiber, moderate natural sugars"
+                },
+                {
+                  "item": "Greek yogurt with chia seeds",
+                  "portion": "1/2 cup yogurt, 1 tbsp chia seeds",
+                  "notes": "Protein-rich and provides omega-3 fatty acids"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Brisk walking",
+                "duration": "30 minutes",
+                "notes": "Improves cardiovascular health and aids in weight management"
+              },
+              "afternoonExercise": {
+                "activity": "Cycling or swimming",
+                "duration": "30 minutes",
+                "notes": "Cardio workout that supports heart health and improves endurance"
+              },
+              "eveningExercise": {
+                "activity": "Strength training",
+                "duration": "20 minutes",
+                "notes": "Helps build muscle, supports metabolism, and improves overall fitness"
+              }
+            }
+          },
+          {
+            "personalizedPlan": {
+              "disease": "Piles",
+              "goal": "To reduce symptoms, improve bowel movements, and prevent flare-ups",
+              "dietPlan": {
+                "breakfast": [
+                  {
+                    "item": "Oatmeal with berries and flaxseeds",
+                    "portion": "1 cup",
+                    "notes": "High in fiber, helps with bowel regularity"
+                  },
+                  {
+                    "item": "Whole grain toast with almond butter",
+                    "portion": "1 slice",
+                    "notes": "Provides fiber and healthy fats"
+                  }
+                ],
+                "lunch": [
+                  {
+                    "item": "Grilled chicken with brown rice and steamed vegetables",
+                    "portion": "150g chicken, 1/2 cup rice, 1 cup vegetables",
+                    "notes": "Lean protein and fiber-rich vegetables for digestive health"
+                  },
+                  {
+                    "item": "Mixed green salad with chickpeas and olive oil dressing",
+                    "portion": "2 cups salad, 1/2 cup chickpeas",
+                    "notes": "High in fiber and healthy fats"
+                  }
+                ],
+                "dinner": [
+                  {
+                    "item": "Baked fish with quinoa and steamed spinach",
+                    "portion": "150g fish, 1/2 cup quinoa, 1 cup spinach",
+                    "notes": "Omega-3s from fish, fiber from quinoa and spinach"
+                  },
+                  {
+                    "item": "Sweet potato",
+                    "portion": "1 medium",
+                    "notes": "High in fiber and nutrients"
+                  }
+                ],
+                "snacks": [
+                  {
+                    "item": "Fresh fruit (e.g., apple or pear)",
+                    "portion": "1 medium fruit",
+                    "notes": "Provides fiber and vitamins"
+                  },
+                  {
+                    "item": "Almonds",
+                    "portion": "1/4 cup",
+                    "notes": "Healthy fats and fiber"
+                  }
+                ]
+              },
+              "exercisePlan": {
+                "morningExercise": {
+                  "activity": "Gentle walking",
+                  "duration": "30 minutes",
+                  "notes": "Promotes healthy digestion and reduces constipation"
+                },
+                "afternoonExercise": {
+                  "activity": "Swimming or low-impact aerobics",
+                  "duration": "30 minutes",
+                  "notes": "Good for overall fitness and reduces strain during bowel movements"
+                },
+                "eveningExercise": {
+                  "activity": "Stretching or yoga",
+                  "duration": "20 minutes",
+                  "notes": "Helps relax the body and reduce stress, which can help with symptoms"
+                }
+              }
+            }
+          }
+          
+
+
+    ]
+}

@@ -1,0 +1,1067 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 3000,
+      "vusers.created": 3000,
+      "http.requests": 6000,
+      "http.codes.200": 6000,
+      "http.responses": 6000,
+      "http.downloaded_bytes": 70335000,
+      "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 3000,
+      "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 3000,
+      "vusers.failed": 0,
+      "vusers.completed": 3000
+    },
+    "rates": {
+      "http.request_rate": 100
+    },
+    "firstCounterAt": 1725892711957,
+    "firstHistogramAt": 1725892711977,
+    "lastCounterAt": 1725892772375,
+    "lastHistogramAt": 1725892772375,
+    "firstMetricAt": 1725892711957,
+    "lastMetricAt": 1725892772375,
+    "period": 1725892770000,
+    "summaries": {
+      "http.response_time": {
+        "min": 0,
+        "max": 34,
+        "count": 6000,
+        "mean": 1,
+        "p50": 1,
+        "median": 1,
+        "p75": 1,
+        "p90": 2,
+        "p95": 2,
+        "p99": 4,
+        "p999": 13.9
+      },
+      "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+        "min": 0,
+        "max": 34,
+        "count": 3000,
+        "mean": 1.5,
+        "p50": 1,
+        "median": 1,
+        "p75": 2,
+        "p90": 2,
+        "p95": 3,
+        "p99": 6,
+        "p999": 18
+      },
+      "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+        "min": 0,
+        "max": 9,
+        "count": 3000,
+        "mean": 0.5,
+        "p50": 0,
+        "median": 0,
+        "p75": 1,
+        "p90": 1,
+        "p95": 1,
+        "p99": 2,
+        "p999": 5
+      },
+      "vusers.session_length": {
+        "min": 2.9,
+        "max": 64.7,
+        "count": 3000,
+        "mean": 6,
+        "p50": 5,
+        "median": 5,
+        "p75": 6,
+        "p90": 7.9,
+        "p95": 11.1,
+        "p99": 25.8,
+        "p999": 47.9
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 0,
+        "max": 34,
+        "count": 6000,
+        "mean": 1,
+        "p50": 1,
+        "median": 1,
+        "p75": 1,
+        "p90": 2,
+        "p95": 2,
+        "p99": 4,
+        "p999": 13.9
+      },
+      "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+        "min": 0,
+        "max": 34,
+        "count": 3000,
+        "mean": 1.5,
+        "p50": 1,
+        "median": 1,
+        "p75": 2,
+        "p90": 2,
+        "p95": 3,
+        "p99": 6,
+        "p999": 18
+      },
+      "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+        "min": 0,
+        "max": 9,
+        "count": 3000,
+        "mean": 0.5,
+        "p50": 0,
+        "median": 0,
+        "p75": 1,
+        "p90": 1,
+        "p95": 1,
+        "p99": 2,
+        "p999": 5
+      },
+      "vusers.session_length": {
+        "min": 2.9,
+        "max": 64.7,
+        "count": 3000,
+        "mean": 6,
+        "p50": 5,
+        "median": 5,
+        "p75": 6,
+        "p90": 7.9,
+        "p95": 11.1,
+        "p99": 25.8,
+        "p999": 47.9
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 392,
+        "vusers.created": 392,
+        "http.requests": 783,
+        "http.codes.200": 782,
+        "http.responses": 782,
+        "http.downloaded_bytes": 9166995,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 391,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 391,
+        "vusers.failed": 0,
+        "vusers.completed": 391
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892711957,
+      "firstHistogramAt": 1725892711977,
+      "lastCounterAt": 1725892719999,
+      "lastHistogramAt": 1725892719961,
+      "firstMetricAt": 1725892711957,
+      "lastMetricAt": 1725892719999,
+      "period": "1725892710000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 11,
+          "count": 782,
+          "mean": 0.8,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 3,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 11,
+          "count": 391,
+          "mean": 1.3,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 3,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 3,
+          "count": 391,
+          "mean": 0.4,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1,
+          "p999": 2
+        },
+        "vusers.session_length": {
+          "min": 3.8,
+          "max": 30.3,
+          "count": 391,
+          "mean": 6,
+          "p50": 4.9,
+          "median": 4.9,
+          "p75": 5.9,
+          "p90": 7.5,
+          "p95": 9.1,
+          "p99": 25.3,
+          "p999": 29.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 11,
+          "count": 782,
+          "mean": 0.8,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 3,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 11,
+          "count": 391,
+          "mean": 1.3,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 3,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 3,
+          "count": 391,
+          "mean": 0.4,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1,
+          "p999": 2
+        },
+        "vusers.session_length": {
+          "min": 3.8,
+          "max": 30.3,
+          "count": 391,
+          "mean": 6,
+          "p50": 4.9,
+          "median": 4.9,
+          "p75": 5.9,
+          "p90": 7.5,
+          "p95": 9.1,
+          "p99": 25.3,
+          "p999": 29.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 500,
+        "vusers.created": 500,
+        "http.requests": 1000,
+        "http.codes.200": 1000,
+        "http.responses": 1000,
+        "http.downloaded_bytes": 11722500,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 500,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 500,
+        "vusers.failed": 0,
+        "vusers.completed": 500
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892720001,
+      "firstHistogramAt": 1725892720001,
+      "lastCounterAt": 1725892729999,
+      "lastHistogramAt": 1725892729960,
+      "firstMetricAt": 1725892720001,
+      "lastMetricAt": 1725892729999,
+      "period": "1725892720000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 1000,
+          "mean": 0.9,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 1.4,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 6,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 4,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 3,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 2.9,
+          "max": 42.2,
+          "count": 500,
+          "mean": 5.7,
+          "p50": 4.6,
+          "median": 4.6,
+          "p75": 5.8,
+          "p90": 8.4,
+          "p95": 10.5,
+          "p99": 19.1,
+          "p999": 36.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 1000,
+          "mean": 0.9,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 1.4,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 6,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 4,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 3,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 2.9,
+          "max": 42.2,
+          "count": 500,
+          "mean": 5.7,
+          "p50": 4.6,
+          "median": 4.6,
+          "p75": 5.8,
+          "p90": 8.4,
+          "p95": 10.5,
+          "p99": 19.1,
+          "p999": 36.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 500,
+        "vusers.created": 500,
+        "http.requests": 1000,
+        "http.codes.200": 1000,
+        "http.responses": 1000,
+        "http.downloaded_bytes": 11722500,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 500,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 500,
+        "vusers.failed": 0,
+        "vusers.completed": 500
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892730002,
+      "firstHistogramAt": 1725892730002,
+      "lastCounterAt": 1725892739999,
+      "lastHistogramAt": 1725892739961,
+      "firstMetricAt": 1725892730002,
+      "lastMetricAt": 1725892739999,
+      "period": "1725892730000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 31,
+          "count": 1000,
+          "mean": 1.1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 7,
+          "p999": 30.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 31,
+          "count": 500,
+          "mean": 1.7,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 10.9,
+          "p999": 30.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 3,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 3.5,
+          "max": 61.6,
+          "count": 500,
+          "mean": 6.4,
+          "p50": 5.1,
+          "median": 5.1,
+          "p75": 6.5,
+          "p90": 9.1,
+          "p95": 12.1,
+          "p99": 26.3,
+          "p999": 42.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 31,
+          "count": 1000,
+          "mean": 1.1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 7,
+          "p999": 30.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 31,
+          "count": 500,
+          "mean": 1.7,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 10.9,
+          "p999": 30.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 3,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 3.5,
+          "max": 61.6,
+          "count": 500,
+          "mean": 6.4,
+          "p50": 5.1,
+          "median": 5.1,
+          "p75": 6.5,
+          "p90": 9.1,
+          "p95": 12.1,
+          "p99": 26.3,
+          "p999": 42.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 500,
+        "vusers.created": 500,
+        "http.requests": 1000,
+        "http.codes.200": 1000,
+        "http.responses": 1000,
+        "http.downloaded_bytes": 11722500,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 500,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 500,
+        "vusers.failed": 0,
+        "vusers.completed": 500
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892740002,
+      "firstHistogramAt": 1725892740002,
+      "lastCounterAt": 1725892749999,
+      "lastHistogramAt": 1725892749961,
+      "firstMetricAt": 1725892740002,
+      "lastMetricAt": 1725892749999,
+      "period": "1725892740000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 15,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 15,
+          "count": 500,
+          "mean": 1.4,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 2,
+          "p99": 7,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 5,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 3
+        },
+        "vusers.session_length": {
+          "min": 3.3,
+          "max": 34.4,
+          "count": 500,
+          "mean": 5.7,
+          "p50": 4.9,
+          "median": 4.9,
+          "p75": 5.5,
+          "p90": 6.9,
+          "p95": 9.9,
+          "p99": 22.9,
+          "p999": 33.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 15,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 15,
+          "count": 500,
+          "mean": 1.4,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 2,
+          "p99": 7,
+          "p999": 7.9
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 5,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 3
+        },
+        "vusers.session_length": {
+          "min": 3.3,
+          "max": 34.4,
+          "count": 500,
+          "mean": 5.7,
+          "p50": 4.9,
+          "median": 4.9,
+          "p75": 5.5,
+          "p90": 6.9,
+          "p95": 9.9,
+          "p99": 22.9,
+          "p999": 33.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 500,
+        "vusers.created": 500,
+        "http.requests": 1000,
+        "http.codes.200": 1000,
+        "http.responses": 1000,
+        "http.downloaded_bytes": 11722500,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 500,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 500,
+        "vusers.failed": 0,
+        "vusers.completed": 500
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892750001,
+      "firstHistogramAt": 1725892750001,
+      "lastCounterAt": 1725892759999,
+      "lastHistogramAt": 1725892759961,
+      "firstMetricAt": 1725892750001,
+      "lastMetricAt": 1725892759999,
+      "period": "1725892750000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 34,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 18
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 34,
+          "count": 500,
+          "mean": 1.5,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 2,
+          "p99": 5,
+          "p999": 18
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 3.4,
+          "max": 48.1,
+          "count": 500,
+          "mean": 6,
+          "p50": 5,
+          "median": 5,
+          "p75": 5.8,
+          "p90": 7.8,
+          "p95": 10.7,
+          "p99": 27.9,
+          "p999": 44.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 34,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 18
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 34,
+          "count": 500,
+          "mean": 1.5,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 2,
+          "p99": 5,
+          "p999": 18
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 9,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 3.4,
+          "max": 48.1,
+          "count": 500,
+          "mean": 6,
+          "p50": 5,
+          "median": 5,
+          "p75": 5.8,
+          "p90": 7.8,
+          "p95": 10.7,
+          "p99": 27.9,
+          "p999": 44.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 500,
+        "vusers.created": 500,
+        "http.requests": 1000,
+        "http.codes.200": 1000,
+        "http.responses": 1000,
+        "http.downloaded_bytes": 11722500,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 500,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 500,
+        "vusers.failed": 0,
+        "vusers.completed": 500
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892760004,
+      "firstHistogramAt": 1725892760009,
+      "lastCounterAt": 1725892769999,
+      "lastHistogramAt": 1725892769962,
+      "firstMetricAt": 1725892760004,
+      "lastMetricAt": 1725892769999,
+      "period": "1725892760000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 17,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 17,
+          "count": 500,
+          "mean": 1.5,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 5,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 7,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 3.3,
+          "max": 49.4,
+          "count": 500,
+          "mean": 6,
+          "p50": 5.1,
+          "median": 5.1,
+          "p75": 5.9,
+          "p90": 7.6,
+          "p95": 10.9,
+          "p99": 22,
+          "p999": 32.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 17,
+          "count": 1000,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 0,
+          "max": 17,
+          "count": 500,
+          "mean": 1.5,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 5,
+          "p999": 7
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 7,
+          "count": 500,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2,
+          "p999": 4
+        },
+        "vusers.session_length": {
+          "min": 3.3,
+          "max": 49.4,
+          "count": 500,
+          "mean": 6,
+          "p50": 5.1,
+          "median": 5.1,
+          "p75": 5.9,
+          "p90": 7.6,
+          "p95": 10.9,
+          "p99": 22,
+          "p999": 32.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 108,
+        "vusers.created": 108,
+        "http.requests": 217,
+        "http.codes.200": 218,
+        "http.responses": 218,
+        "http.downloaded_bytes": 2555505,
+        "plugins.metrics-by-endpoint./api/getLocationBestForCure.codes.200": 109,
+        "plugins.metrics-by-endpoint./api/getDiseasesById/1.codes.200": 109,
+        "vusers.failed": 0,
+        "vusers.completed": 109
+      },
+      "rates": {
+        "http.request_rate": 110
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1725892770002,
+      "firstHistogramAt": 1725892770002,
+      "lastCounterAt": 1725892772375,
+      "lastHistogramAt": 1725892772375,
+      "firstMetricAt": 1725892770002,
+      "lastMetricAt": 1725892772375,
+      "period": "1725892770000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 6,
+          "count": 218,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 4
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 1,
+          "max": 6,
+          "count": 109,
+          "mean": 1.6,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 4,
+          "p999": 4
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 2,
+          "count": 109,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1,
+          "p999": 1
+        },
+        "vusers.session_length": {
+          "min": 3.4,
+          "max": 64.7,
+          "count": 109,
+          "mean": 6.9,
+          "p50": 5.2,
+          "median": 5.2,
+          "p75": 6.5,
+          "p90": 9.1,
+          "p95": 12.3,
+          "p99": 26.8,
+          "p999": 39.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 6,
+          "count": 218,
+          "mean": 1,
+          "p50": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2,
+          "p95": 2,
+          "p99": 4,
+          "p999": 4
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getLocationBestForCure": {
+          "min": 1,
+          "max": 6,
+          "count": 109,
+          "mean": 1.6,
+          "p50": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 2,
+          "p95": 3,
+          "p99": 4,
+          "p999": 4
+        },
+        "plugins.metrics-by-endpoint.response_time./api/getDiseasesById/1": {
+          "min": 0,
+          "max": 2,
+          "count": 109,
+          "mean": 0.5,
+          "p50": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1,
+          "p999": 1
+        },
+        "vusers.session_length": {
+          "min": 3.4,
+          "max": 64.7,
+          "count": 109,
+          "mean": 6.9,
+          "p50": 5.2,
+          "median": 5.2,
+          "p75": 6.5,
+          "p90": 9.1,
+          "p95": 12.3,
+          "p99": 26.8,
+          "p999": 39.3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+    "diseases": [
+      {
+        "id": "1",
+        "diseaseName": "Diabetes",
+        "description": "Diabetes is a chronic medical condition where the body either does not produce enough insulin or cannot effectively use the insulin it produces. This leads to elevated blood glucose levels. Proper management through medication, lifestyle changes, and diet is crucial.",
+        "symptoms": ["Increased thirst", "Frequent urination", "Extreme hunger", "Fatigue"],
+       
+        "treatment": ["Insulin therapy", "Lifestyle changes", "Very limited sugar intake"],
+        "bestLocationForTreatment":{"locations": ["Chennai", "Delhi", "Mumbai"]},
+        "preventionTips": ["Maintain a healthy weight", "Regular physical activity"],
+        "recoveryTime": "Ongoing management",
+        "costEstimate": "$100-$200 per month",
+        "keywords": ["blood sugar", "insulin", "glycemic control","hyperglycemia","felling weak","often urination"],
+        "error":"false"
+      },
+      {
+        "id": "2",
+        "diseaseName": "Hypertension",
+        "description": "Hypertension, also known as high blood pressure, is a chronic medical condition where the blood pressure in the arteries is persistently elevated. It can lead to serious health complications if not managed properly. Common causes include lifestyle factors, genetics, and other underlying health conditions.",
+        "symptoms": ["Headaches", "Shortness of breath", "Nosebleeds", "Chest pain", "Dizziness"],
+       
+        "treatment": ["Medication management", "Lifestyle changes", "Weight loss", "Stress reduction"],
+        "bestLocationForTreatment": {"locations":["Chennai", "Mumbai", "Delhi"]},
+        "preventionTips": ["Reduce salt intake", "Regular exercise", "Maintain a healthy weight", "Limit alcohol consumption"],
+        "recoveryTime": "Management is ongoing, often requiring lifelong treatment and lifestyle adjustments",
+        "costEstimate": "$50-$100 per month",
+        "keywords": ["high blood pressure", "BP management", "hypertension treatment", "cardiovascular health","blood pressure"],
+           "error":"false"
+      },
+      {
+        "id": "3",
+        "diseaseName": "Asthma",
+        "description": "Asthma is a chronic respiratory condition characterized by inflammation and narrowing of the airways, leading to difficulty breathing. It is often triggered by allergens, respiratory infections, or environmental factors. Symptoms can vary in severity and may be managed with medication and lifestyle changes.",
+        "symptoms": ["Wheezing", "Shortness of breath", "Coughing", "Chest tightness", "Difficulty in breathing"],
+       
+        "treatment": ["Inhalers", "Avoid triggers", "Regular monitoring", "Allergy management"],
+        "bestLocationForTreatment": {"locations":["Mumbai", "Bengaluru", "Delhi", "Chennai", "Hyderabad"]},
+        "preventionTips": ["Avoid allergens", "Use air purifiers", "Maintain a healthy weight", "Follow an asthma action plan"],
+        "recoveryTime": "Manageable with medication and lifestyle adjustments",
+        "costEstimate": "Approximately INR 10,000 to 20,000 per year, depending on severity and treatment plan",
+        "keywords": ["asthma management", "respiratory health", "wheezing", "shortness of breath","breathing problem"],
+           "error":"false"
+      },
+      {
+        "id": "4",
+        "diseaseName": "Influenza",
+        "description": "Influenza, commonly known as the flu, is a viral infection affecting the respiratory system. It is characterized by sudden onset of fever, chills, muscle aches, and respiratory symptoms. Influenza can lead to complications, especially in vulnerable populations such as the elderly, young children, and those with weakened immune systems.",
+        "symptoms": ["Fever", "Chills", "Muscle aches", "Headache", "Sore throat", "Runny nose", "Cough", "Fatigue"],
+       
+        "treatment": ["Antiviral medications", "Rest", "Drink plenty of fluids", "Over-the-counter pain relievers"],
+        "bestLocationForTreatment": {
+          "locations": ["Mumbai", "Delhi", "Bengaluru", "Chennai", "Hyderabad"]
+          
+        },
+        "preventionTips": ["Get an annual flu vaccine", "Practice good hand hygiene", "Avoid close contact with sick individuals"],
+        "recoveryTime": "Typically 1-2 weeks with proper rest and treatment",
+        "costEstimate": "Varies based on location and treatment, generally ₹3,000-₹15,000 for consultation and medication",
+        "keywords": ["flu", "influenza", "viral infection", "respiratory symptoms", "flu vaccine"],
+           "error":"false"
+      },
+      {
+        "id": "5",
+        "diseaseName": "Migraine",
+        "description": "Migraine is a neurological condition characterized by severe, recurring headaches that can cause nausea, vomiting, and heightened sensitivity to light and sound. Migraines can significantly impact daily activities and quality of life. Treatment often involves managing symptoms and preventing future attacks.",
+        "symptoms": ["Severe headache", "Nausea", "Sensitivity to light", "Vomiting", "Aura (visual disturbances)"],
+       
+        "treatment": ["Medication for acute relief (triptans, NSAIDs)", "Preventive medication (e.g., beta-blockers, antidepressants)", "Maintaining a consistent sleep schedule"],
+        "bestLocationForTreatment": {
+          "locations": ["Mumbai", "Delhi", "Bengaluru", "Chennai", "Hyderabad"]
+   
+        },
+        "preventionTips": ["Maintain a regular sleep schedule", "Manage stress through relaxation techniques", "Identify and avoid food triggers"],
+        "recoveryTime": "Varies; migraines usually last from a few hours to a day, with recovery time depending on treatment and individual response",
+        "costEstimate": "₹500-₹2,000 per prescription for medication",
+        "keywords": ["migraine", "headache", "severe headache", "nausea", "sensitivity to light"],
+           "error":"false"
+      },
+      {
+        "id": "6",
+        "diseaseName": "Ringworm",
+        "description":"Ringworm is a common fungal infection that affects the skin, scalp, and nails. Despite its name, ringworm is not caused by a worm but by a group of fungi known as dermatophytes. Here is a detailed description:",
+        "symptoms": [
+          "Red, circular rash",
+          "Itchy skin",
+          "Cracked skin",
+          "Hair loss in the affected area"
+        ],
+        "diet": [
+          "No specific dietary restrictions",
+          "Maintain a healthy and balanced diet"
+        ],
+        "treatment": [
+          "Topical antifungal creams or ointments",
+          "Keep the affected area clean and dry",
+          "Avoid sharing personal items like towels or clothing"
+        ],
+        "exercise":["No excersice is needed , Maintain a hygine lifestyle"],
+        "bestLocationForTreatment":{
+          "locations": ["Mumbai", "Delhi" ,"Chennai","Delhi"]
+        } ,
+    
+        "preventionTips": [
+          "Keep skin clean and dry",
+          "Avoid sharing personal items",
+          "Wear loose-fitting clothing",
+          "Practice good hygiene"
+        ],
+        "recoveryTime": "2 to 4 weeks with proper treatment",
+        "costEstimate": "INR 200 - INR 500 for topical treatments",
+        "keywords":["rashes","itching"],
+           "error":"false"
+      },
+      {
+        "id": "7",
+        "diseaseName": "Malaria",
+        "description":"Malaria is a serious and potentially life-threatening infectious disease caused by parasites of the genus Plasmodium, which are transmitted to humans through the bites of infected female Anopheles mosquitoes.",
+        "keywords": ["Malaria", "Mosquito-borne disease", "Plasmodium infection"],
+        "symptoms": [
+          "Fever",
+          "Chills",
+          "Headache",
+          "Nausea",
+          "Vomiting",
+          "Muscle pain",
+          "Fatigue",
+          "Sweating",
+          "Rapid breathing",
+          "Shivering"
+        ],
+        "relatedSymptoms": [
+          "High fever",
+          "Severe headache",
+          "Extreme tiredness"
+        ],
+        "diet": [
+          "High-calorie diet",
+          "Hydration",
+          "Nutrient-rich foods",
+          "Iron-rich foods",
+          "Fruits",
+          "Vegetables"
+        ],
+        "exercise": [
+          "Rest",
+          "Light physical activity",
+          "Avoid strenuous exercise"
+        ],
+        "treatment": [
+          "Antimalarial drugs",
+          "Rest",
+          "Hydration",
+          "Medical attention"
+        ],
+        "bestLocationForTreatment":{ 
+          
+        "locations":["Kolkata", "Chennai", "Delhi"]
+      },
+        "preventionTips": [
+          "Use mosquito nets",
+          "Wear protective clothing",
+          "Use insect repellent",
+          "Take antimalarial medications if recommended"
+        ],
+        "recoveryTime": "1 to 2 weeks with treatment",
+        "costEstimate": "INR 1,000 to 5,000 for treatment",
+    
+           "error":"false"
+      },
+    
+    
+      {
+        "id": "8",
+        "diseaseName": "Cancer",
+        "description": "Cancer is a group of diseases characterized by uncontrolled cell growth that can invade or spread to other parts of the body.",
+        "keywords": ["Cancer", "Tumor", "Malignant growth", "Neoplasm", "Oncology"],
+        "symptoms": [
+          "Unexplained weight loss",
+          "Persistent fatigue",
+          "Chronic pain",
+          "Swelling or lumps",
+          "Skin changes or rashes",
+          "Persistent cough or difficulty breathing",
+          "Difficulty swallowing",
+          "Unusual bleeding"
+        ],
+        "relatedSymptoms": [
+          "Weight loss",
+          "Fatigue",
+          "Pain",
+          "Lumps",
+          "Bleeding"
+        ],
+     
+        "treatment": ["Chemotherapy", "Radiation therapy", "Surgery", "Immunotherapy"],
+        "bestLocationForTreatment": 
+          {
+         
+            "locations": ["Mumbai", "Bangalore", "Hyderabad", "Delhi"]
+          },
+
+        "preventionTips": [
+          "Avoid tobacco",
+          "Maintain a healthy weight",
+          "Eat a diet rich in fruits and vegetables",
+          "Regular screenings and check-ups"
+        ],
+        "recoveryTime": "Varies based on type and stage",
+        "costEstimate": "INR 1,00,000 - 10,00,000 depending on treatment",
+           "error":"false"
+      },
+      {
+        "id": "9",
+        "diseaseName": "Breast Cancer",
+        "description": "Breast cancer is a type of cancer that forms in the cells of the breasts, often detected through lumps or changes in breast tissue.",
+        "keywords": ["Breast Cancer", "Breast lump", "Mammogram", "Breast tumor", "Oncology"],
+        "symptoms": [
+          "Breast lump or swelling",
+          "Changes in breast shape or size",
+          "Skin changes on breast",
+          "Nipple discharge or changes",
+          "Breast pain or discomfort",
+          "Redness or flaky skin on breast",
+          "Lumps under the arm"
+        ],
+        "relatedSymptoms": [
+          "Breast lump",
+          "Breast swelling",
+          "Skin changes",
+          "Nipple discharge",
+          "Breast pain",
+          "Redness",
+          "Lumps"
+        ],
+      
+        "treatment": ["Surgery (mastectomy or lumpectomy)", "Radiation therapy", "Hormonal therapy"],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Chennai", "Kolkata"]
+    
+          },
+
+        "preventionTips": [
+          "Regular mammograms",
+          "Self-breast examinations",
+          "Healthy diet",
+          "Limit alcohol intake"
+        ],
+        "recoveryTime": "Varies based on stage and treatment",
+        "costEstimate": "INR 2,00,000 - 7,00,000 depending on treatment",
+           "error":"false"
+      },
+      {
+        "id": "10",
+        "diseaseName": "Lung Cancer",
+        "description": "Lung cancer is a type of cancer that begins in the lungs. It often develops in smokers but can occur in non-smokers as well. Early detection is challenging but crucial for effective treatment.",
+        "keywords": ["Lung Cancer", "Respiratory cancer", "Oncology", "Pulmonary cancer"],
+        "symptoms": [
+          "Persistent cough",
+          "Chest pain",
+          "Shortness of breath",
+          "Coughing up blood",
+          "Unexplained weight loss",
+          "Fatigue"
+        ],
+       
+        "treatment": [
+          "Surgery",
+          "Radiation therapy",
+          "Chemotherapy",
+          "Targeted therapy",
+          "Immunotherapy"
+        ],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Chennai"]
+           
+          },
+
+        "preventionTips": [
+          "Avoid smoking",
+          "Limit exposure to environmental toxins",
+          "Regular health check-ups"
+        ],
+        "recoveryTime": "Varies by stage; requires ongoing management and follow-ups",
+        "costEstimate": "$2000-$5000 per month depending on treatment type and stage",
+           "error":"false"
+      },
+      {
+        "id": "11",
+        "diseaseName": "Throat Cancer",
+        "description": "Throat cancer refers to cancers that develop in the throat (pharynx) or voice box (larynx). It may be associated with smoking and excessive alcohol consumption. Early diagnosis improves treatment outcomes.",
+        "keywords": ["Throat Cancer", "Pharyngeal cancer", "Laryngeal cancer", "Oncology"],
+        "symptoms": [
+          "Persistent sore throat",
+          "Difficulty swallowing",
+          "Hoarseness or change in voice",
+          "Persistent cough",
+          "Lump in the neck or throat",
+          "Ear pain"
+        ],
+       
+        "treatment": [
+          "Surgery",
+          "Radiation therapy",
+          "Chemotherapy",
+          "Targeted therapy"
+        ],
+        "bestLocationForTreatment": 
+          {
+
+            "locations": ["Mumbai", "Delhi", "Chennai"]
+          },
+        
+        "preventionTips": [
+          "Avoid smoking and tobacco use",
+          "Limit alcohol consumption",
+          "Maintain good oral hygiene",
+          "Regular medical check-ups"
+        ],
+        "recoveryTime": "Varies by stage; requires ongoing management and follow-ups",
+        "costEstimate": "$1500-$4000 per month depending on treatment type and stage",
+           "error":"false"
+      },
+      {
+        "id": "12",
+        "diseaseName": "Gastritis",
+        "description": "Gastritis is the inflammation of the stomach lining, which can cause discomfort and a range of symptoms. Effective management often involves dietary and lifestyle changes.",
+        "keywords": ["Gastritis", "Stomach inflammation", "Acid reflux", "Digestive issues"],
+        "symptoms": [
+          "Abdominal pain",
+          "Nausea",
+          "Vomiting",
+          "Loss of appetite",
+          "Bloating",
+          "Indigestion",
+          "Gas"
+        ],
+       
+        "treatment": [
+          "Avoiding irritants like alcohol and NSAIDs",
+          "Managing stress",
+          "Regular medical follow-ups"
+        ],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Bangalore"]
+           
+          },
+      
+        "preventionTips": [
+          "Avoid excessive alcohol consumption",
+          "Limit the use of pain relievers",
+          "Manage stress",
+          "Follow a balanced diet"
+        ],
+        "recoveryTime": "Varies; often improves with lifestyle changes and medication",
+        "costEstimate": "$50-$150 per month for treatment and management",
+           "error":"false"
+      },
+      {
+        "id": "13",
+        "diseaseName": "Gastroesophageal Reflux Disease (GERD)",
+        "description": "GERD is a chronic digestive condition where stomach acid frequently flows back into the esophagus, causing irritation and discomfort.",
+        "keywords": ["GERD", "Acid reflux", "Digestive disorder", "Esophageal reflux"],
+        "symptoms": [
+          "Frequent heartburn",
+          "Acidity",
+          "Chest pain",
+          "Chest burn",
+          "Chest burnning",
+          "Gas"
+        ],
+       
+        "treatment": [
+          "Medication to reduce stomach acid",
+          "Lifestyle and dietary modifications"
+        ],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Bangalore"]
+         
+          },
+        
+        "preventionTips": [
+          "Avoid triggers like spicy and fatty foods",
+          "Eat smaller, more frequent meals",
+          "Avoid lying down after eating"
+        ],
+        "recoveryTime": "Varies; often improves with lifestyle changes and medication",
+        "costEstimate": "$100-$250 per month for medication and management",
+           "error":"false"
+      },
+      {
+        "id": "14",
+        "diseaseName": "Dengue Fever",
+        "description":"Dengue is a viral infection transmitted by mosquitoes, causing high fever, severe headache, pain behind the eyes, joint and muscle pain, and rash.",
+        "symptoms": [
+          "High fever",
+          "Severe headache",
+          "Pain behind the eyes",
+          "Joint and muscle pain",
+          "Nausea and vomiting",
+          "Fatigue",
+          "Skin rash",
+          "Mild bleeding (e.g., nosebleeds, gum bleeding)"
+        ],
+       
+        "treatment": [
+          "Supportive care including hydration",
+          "Acetaminophen (Paracetamol) for fever and pain",
+          "Avoid NSAIDs like ibuprofen or aspirin"
+        ],
+        "bestLocationForTreatment": {"locations":[
+          "New Delhi",
+          "Mumbai",
+          "Chennai"
+        
+        ]
+      },
+        "preventionTips": [
+          "Use mosquito repellent",
+          "Wear long sleeves and pants",
+          "Use mosquito nets and screens",
+          "Eliminate standing water around living areas"
+        ],
+        "recoveryTime": "Usually 1-2 weeks",
+        "costEstimate": "Varies depending on the severity of the case and local healthcare costs",
+        "keywords":["Dengue Fever",
+  "high fever",
+  "mosquito-borne illness",
+  "severe headache",
+  "pain behind the eyes",
+  "joint pain",
+  "muscle pain",
+  "rash",
+  "nausea and vomiting",
+  "fatigue",
+  "mild bleeding",
+  "dengue treatment",
+  "dengue prevention",
+  "hydration",
+  "fluids",
+  "acetaminophen",
+  "supportive care"],
+           "error":"false"
+      },
+      {
+        "id": "15",
+        "diseaseName": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "description":"Chronic Obstructive Pulmonary Disease (COPD) is a progressive lung disease characterized by persistent airflow limitation, causing difficulty breathing, chronic cough, and mucus production. It is commonly caused by long-term exposure to harmful substances like tobacco smoke.",
+        "symptoms": [
+          "Chronic cough",
+          "Shortness of breath",
+          "Wheezing",
+          "Chest tightness",
+          "Increased mucus production"
+        ],
+       
+        "treatment": [
+          "Bronchodilators",
+          "Inhaled corticosteroids",
+          "Oxygen therapy (if needed)",
+          "Pulmonary rehabilitation"
+        ],
+        "bestLocationForTreatment":{ "locations":[
+          "Delhi",
+          "Mumbai",
+          "Bangalore",
+          "Chennai"
+        ]},
+        "preventionTips": [
+          "Quit smoking",
+          "Avoid exposure to pollutants and dust",
+          "Get vaccinated for influenza and pneumonia"
+        ],
+        "recoveryTime": "Management of symptoms is ongoing; not curable but manageable with treatment",
+        "costEstimate": "Varies depending on treatment and local healthcare costs",
+        "keywords":["COPD",
+  "Chronic Obstructive Pulmonary Disease",
+  "persistent airflow limitation",
+  "difficulty breathing",
+  "chronic cough",
+  "wheezing",
+  "chest tightness",
+  "mucus production",
+  "bronchodilators",
+  "inhaled corticosteroids",
+  "oxygen therapy",
+  "pulmonary rehabilitation",
+  "smoking cessation",
+  "pollutants exposure",
+  "influenza vaccination",
+  "pneumonia vaccination",
+  "breathing exercises",
+  "low-impact aerobic exercises",
+  "high-protein diet",
+  "low-sodium diet",
+  "antioxidants"],
+           "error":"false"
+      },
+      
+        {
+          "id": "16",
+          "diseaseName": "Hepatitis",
+          "description":"Hepatitis is an inflammation of the liver, often caused by viral infections (A, B, C, D, E), leading to symptoms like jaundice, fatigue, and abdominal pain.",
+          "symptoms": ["Fatigue", "Jaundice (yellowing of the skin and eyes)", "Abdominal pain", "Dark urine", "Pale stools", "Loss of appetite", "Nausea and vomiting"],
+          
+          "treatment": ["Depends on the type (A, B, C, etc.)", "Antiviral medications for chronic types", "Supportive care for acute types"],
+          "bestLocationForTreatment": {"locations":["Mumbai", "Delhi", "Chennai"]},
+          "preventionTips": ["Vaccination (for Hepatitis A and B)", "Avoid sharing needles or personal items", "Safe sexual practices"],
+          "recoveryTime": "Varies based on type and severity",
+          "costEstimate": "Varies significantly depending on treatment type and location",
+          "keywords":[  "Hepatitis",
+          "Liver inflammation",
+          "Jaundice",
+          "Fatigue",
+          "Abdominal pain",
+          "Dark urine",
+          "Pale stools",
+          "Nausea and vomiting"],
+                       "error":"false"
+        },
+        {
+          "id": "17",
+          "diseaseName": "Hepatitis B",
+          "description":"Hepatitis is an inflammation of the liver, often caused by viral infections (A, B, C, D, E), leading to symptoms like jaundice, fatigue, and abdominal pain.",
+          "symptoms": ["Jaundice", "Abdominal pain", "Dark urine", "Fatigue", "Loss of appetite"],
+        
+          "treatment": ["Antiviral medications (e.g., Tenofovir, Entecavir)", "Monitoring for liver damage"],
+          "bestLocationForTreatment": {"locations":["Mumbai", "Delhi", "Bangalore"]},
+          "preventionTips": ["Hepatitis B vaccination", "Avoid sharing needles", "Safe sexual practices"],
+          "recoveryTime": "Chronic Hepatitis B requires long-term management",
+          "costEstimate": "INR 1,000 - INR 5,000 per month (for medication)",
+          "keywords":[  "Hepatitis",
+          "Liver inflammation",
+          "Jaundice",
+          "Fatigue",
+          "Abdominal pain",
+          "Dark urine",
+          "Pale stools",
+          "Nausea and vomiting"],
+          "error":"false"
+        },
+        {
+          "id": "18",
+          "diseaseName": "Hepatitis C",
+          "description":"Hepatitis is an inflammation of the liver, often caused by viral infections (A, B, C, D, E), leading to symptoms like jaundice, fatigue, and abdominal pain.",
+          "symptoms": ["Jaundice", "Fatigue", "Abdominal pain", "Dark urine", "Loss of appetite"],
+         
+          "treatment": ["Antiviral medications (e.g., Sofosbuvir, Ledipasvir)", "Duration typically 8-12 weeks"],
+          "bestLocationForTreatment": {"locations":["Mumbai", "Delhi", "Chennai"]},
+          "preventionTips": ["Avoid sharing needles", "Regular screening if at risk"],
+          "recoveryTime": "8-12 weeks for most treatments",
+          "costEstimate": "INR 50,000 - INR 200,000 for full treatment course",
+          "keywords":[  "Hepatitis",
+          "Liver inflammation",
+          "Jaundice",
+          "Fatigue",
+          "Abdominal pain",
+          "Dark urine",
+          "Pale stools",
+          "Nausea and vomiting"],
+             "error":"false"
+        },
+      
+      {
+        "id": "19",
+        "diseaseName": "Diarrhea",
+        "description":"Hepatitis is an inflammation of the liver, often caused by viral infections (A, B, C, D, E), leading to symptoms like jaundice, fatigue, and abdominal pain.",
+        "symptoms": [
+          "Frequent loose ",
+          " watery stools",
+          "Abdominal cramps",
+          "Nausea",
+          "Vomiting",
+          "Urgency to have a bowel movement"
+       
+        ],
+        
+        "treatment": [
+          "Hydration with fluids",
+          "Oral rehydration solutions",
+          "Antidiarrheal medications (e.g., loperamide) for certain cases",
+          "Avoiding dairy products and high-fat foods"
+        ],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Bengaluru", "Chennai", "Kolkata"]
+          },
+
+        "preventionTips": [
+          "Wash hands regularly",
+          "Avoid consuming contaminated food and water",
+          "Maintain good hygiene practices"
+        ],
+        "recoveryTime": "Usually resolves within a few days with proper hydration and treatment",
+        "keywords": [
+    "Diarrhea",
+    "Loose stools",
+    "Abdominal cramps",
+    "Nausea",
+    "Vomiting",
+    "Oral rehydration solutions",
+    "BRAT diet",
+    "Hydration",
+    "Antidiarrheal medications",
+    "Stomach upset",
+    "Food poisoning",
+    "Gastroenteritis"
+  ],
+        "costEstimate": "$10-$50 for over-the-counter medications and rehydration solutions",
+          "error":"false"
+      },
+      
+      {
+        "id": "20",
+        "diseaseName": "Typhoid",
+        "description":"Typhoid is a bacterial infection caused by Salmonella typhi, leading to prolonged fever, weakness, abdominal pain, and digestive issues. It spreads through contaminated food and water.",
+        "symptoms": [
+          "Prolonged fever",
+          "Weakness and fatigue",
+
+          "Abdominal pain",
+          "Loss of appetite",
+          "Rash (in some cases)",
+          "Diarrhea or constipation"
+        ],
+      
+        "treatment": [
+          "Antibiotics (e.g., ciprofloxacin, azithromycin)",
+          "Hydration with fluids",
+          "Monitoring and managing symptoms"
+        ],
+        "bestLocationForTreatment": 
+          {
+            "locations": ["Mumbai", "Delhi", "Bengaluru", "Chennai", "Kolkata"]
+          },
+        
+        "preventionTips": [
+          "Drink safe and clean water",
+          "Avoid consuming contaminated food",
+          "Maintain good hygiene practices",
+          "Vaccination in high-risk areas"
+        ],
+        "recoveryTime": "Typically 1-4 weeks with appropriate antibiotic treatment",
+        "costEstimate": "$100-$200 for treatment and diagnostic tests",
+        "keywords": [
+    "Typhoid",
+    "Salmonella typhi",
+    "Prolonged fever",
+    "Abdominal pain",
+    "Loss of appetite",
+    "Rash",
+    "Diarrhea",
+    "Constipation",
+    "Antibiotics",
+    "Hydration",
+    "Contaminated food",
+    "Vaccination"
+  ],
+        "error":"false"
+      },
+      
+        {
+          "id": "21",
+          "diseaseName": "Cardiovascular Diseases",
+          "description": "Cardiovascular diseases encompass a range of conditions affecting the heart and blood vessels, including coronary artery disease, heart failure, and arrhythmias. These conditions can impair blood flow and lead to severe complications.",
+          "symptoms": ["Chest pain", "Shortness of breath", "Palpitations", "Fatigue", "Swelling in legs or ankles"],
+        
+          "treatment": ["Medications (e.g., statins, antihypertensives)", "Lifestyle changes", "Surgical interventions (e.g., angioplasty, bypass surgery)"],
+          "bestLocationForTreatment": 
+            {
+              "locations": ["Mumbai", "Delhi", "Bangalore", "Chennai", "Hyderabad"]
+            },
+          
+          "preventionTips": ["Maintain a healthy weight", "Regular physical activity", "Healthy diet", "Avoid smoking", "Limit alcohol intake"],
+          "recoveryTime": "Varies; ongoing management and lifestyle changes often required",
+          "keywords": [
+    "Cardiovascular diseases",
+    "Heart disease",
+    "Coronary artery disease",
+    "Heart failure",
+    "Arrhythmias",
+    "Chest pain",
+    "Shortness of breath",
+    "Palpitations",
+    "Fatigue",
+    "Swelling",
+    "Heart-healthy diet",
+    "Statins",
+    "Angioplasty",
+    "Bypass surgery"
+  ],
+          "costEstimate": "Varies; can include costs for medications, medical consultations, and possibly surgical procedures",
+           "error":"false"
+        },
+      
+      
+        {
+          "id": "22",
+          "diseaseName": "Piles",
+          "description": "Piles, or hemorrhoids, are swollen veins in the lower part of the rectum and anus. They can cause discomfort, itching, and bleeding. They are common and can be caused by various factors including constipation, straining during bowel movements, and pregnancy.",
+          "symptoms": ["Anal itching", "Pain during bowel movements", "Swelling around the anus", "Bleeding during bowel movements", "Discomfort in the anal area"],
+         
+          "treatment": ["Over-the-counter creams and ointments", "Warm baths", "Increased fiber intake", "Medical procedures (e.g., rubber band ligation, hemorrhoidectomy)"],
+          "bestLocationForTreatment": 
+            {
+              "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+            },
+          
+          "preventionTips": ["Avoid straining during bowel movements", "Increase dietary fiber", "Stay hydrated", "Exercise regularly"],
+          "recoveryTime": "Varies; symptoms often improve within a few days to weeks with appropriate treatment",
+          "costEstimate": "Varies; costs may include medications, medical consultations, and potentially surgical procedures",
+          "keywords": [
+            "Piles",
+            "Hemorrhoids",
+            "Anal Fistula",
+            "Swollen veins",
+            "Rectal discomfort",
+            "Anal itching",
+            "Pain during bowel movements",
+            "Anal swelling"],
+          "error":"false"
+        },
+        {
+          "id": "23",
+          "diseaseName": "Anal Fisture",
+          "description": "An anal fissure is a small tear in the thin, moist tissue that lines the anus.",
+          "symptoms": ["Anal itching", "Pain during bowel movements", "Swelling around the anus", "Bleeding during bowel movements", "Discomfort in the anal area"],
+         
+          "treatment": ["Over-the-counter creams and ointments", "Warm baths", "Increased fiber intake", "Medical procedures (e.g., rubber band ligation, hemorrhoidectomy)"],
+          "bestLocationForTreatment": 
+            {
+              "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+            },
+          
+          "preventionTips": ["Avoid straining during bowel movements", "Increase dietary fiber", "Stay hydrated", "Exercise regularly"],
+          "recoveryTime": "Varies; symptoms often improve within a few days to weeks with appropriate treatment",
+          "costEstimate": "Varies; costs may include medications, medical consultations, and potentially surgical procedures",
+          "keywords": [
+            "Piles",
+            "Hemorrhoids",
+            "Anal Fistula",
+            "Swollen veins",
+            "Rectal discomfort",
+            "Anal itching",
+            "Pain during bowel movements",
+            "Anal swelling"],
+          "error":"false"
+        }
+  
+  ]
+}
+
+  
+  
+  
+  

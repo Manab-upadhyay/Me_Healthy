@@ -1,0 +1,11 @@
+config:
+  target: 'http://localhost:7000'  # Set your target URL
+  phases:
+    - duration: 60  # Duration of the test in seconds
+      arrivalRate: 50  # 50 requests per second
+scenarios:
+  - flow:
+      - get:
+          url: "/api/getLocationBestForCure?Location=mumbai,kolkata"
+      - get:
+          url: "/api/getDiseasesById/1"

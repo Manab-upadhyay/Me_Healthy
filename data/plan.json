@@ -1,0 +1,354 @@
+{
+    "personalizedPlan": [
+      {
+        "disease": "Diabetes",
+        "goal": "To manage and control blood glucose levels effectively",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Oatmeal with almond milk",
+              "portion": "1 cup",
+              "notes": "Add chia seeds or flaxseeds for extra fiber"
+            },
+            {
+              "item": "Boiled eggs",
+              "portion": "2 eggs",
+              "notes": "High in protein, helps control blood sugar"
+            },
+            {
+              "item": "Green tea",
+              "portion": "1 cup",
+              "notes": "Antioxidant-rich, no sugar added"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Grilled chicken salad",
+              "portion": "150g chicken, 2 cups mixed greens",
+              "notes": "Add olive oil dressing, avoid sugary sauces"
+            },
+            {
+              "item": "Whole grain bread",
+              "portion": "1 slice",
+              "notes": "Low-carb, whole grains help stabilize blood sugar"
+            },
+            {
+              "item": "Greek yogurt",
+              "portion": "1/2 cup",
+              "notes": "Protein-rich, avoid flavored yogurts"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked salmon",
+              "portion": "150g",
+              "notes": "Rich in omega-3s, good for heart health"
+            },
+            {
+              "item": "Steamed broccoli and carrots",
+              "portion": "1 cup each",
+              "notes": "High in fiber, low-carb vegetables"
+            },
+            {
+              "item": "Quinoa",
+              "portion": "1/2 cup",
+              "notes": "Healthy grain alternative, good for glycemic control"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Almonds",
+              "portion": "1/4 cup",
+              "notes": "Healthy fats, low carb"
+            },
+            {
+              "item": "Apple slices with peanut butter",
+              "portion": "1 medium apple, 1 tbsp peanut butter",
+              "notes": "Moderate sugar, high in fiber"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Brisk walking",
+            "duration": "30 minutes",
+            "notes": "Helps improve insulin sensitivity"
+          },
+          "afternoonExercise": {
+            "activity": "Cycling",
+            "duration": "45 minutes",
+            "notes": "Cardio workout, helps burn excess sugar"
+          },
+          "eveningExercise": {
+            "activity": "Yoga",
+            "duration": "20 minutes",
+            "notes": "Helps reduce stress and maintain blood sugar balance"
+          }
+        }
+      },
+      {
+        "disease": "Hypertension",
+        "goal": "To lower and control blood pressure",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Oatmeal",
+              "portion": "1 cup",
+              "notes": "Rich in fiber, helps reduce cholesterol"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Grilled chicken with mixed greens",
+              "portion": "150g chicken, 2 cups salad",
+              "notes": "Low in sodium, high in potassium and fiber"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Steamed salmon with spinach",
+              "portion": "150g salmon, 1 cup spinach",
+              "notes": "Omega-3 rich, good for heart health"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Banana",
+              "portion": "1 medium",
+              "notes": "High in potassium"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Brisk walking",
+            "duration": "30 minutes",
+            "notes": "Improves cardiovascular health"
+          },
+          "eveningExercise": {
+            "activity": "Light yoga",
+            "duration": "20 minutes",
+            "notes": "Helps reduce stress"
+          }
+        }
+      },
+      {
+      "disease": "Influenza",
+      "goal": "To boost immunity, reduce symptoms, and promote recovery",
+      "dietPlan": {
+        "breakfast": [
+          {
+            "item": "Warm lemon water with honey",
+            "portion": "1 cup",
+            "notes": "Helps soothe the throat and provides vitamin C"
+          },
+          {
+            "item": "Oatmeal with berries",
+            "portion": "1 cup",
+            "notes": "Rich in fiber, antioxidants, and vitamin C to support the immune system"
+          }
+        ],
+        "lunch": [
+          {
+            "item": "Chicken soup with vegetables",
+            "portion": "1 bowl",
+            "notes": "Hydrating, soothing, and rich in protein and nutrients"
+          },
+          {
+            "item": "Whole grain toast",
+            "portion": "1 slice",
+            "notes": "Provides energy with complex carbohydrates"
+          }
+        ],
+        "dinner": [
+          {
+            "item": "Steamed salmon with spinach",
+            "portion": "150g salmon, 1 cup spinach",
+            "notes": "Omega-3 fatty acids and vitamins to support immune function"
+          },
+          {
+            "item": "Sweet potatoes",
+            "portion": "1/2 cup",
+            "notes": "Rich in beta-carotene, supporting immune health"
+          }
+        ],
+        "snacks": [
+          {
+            "item": "Citrus fruits (oranges, grapefruits)",
+            "portion": "1 serving",
+            "notes": "High in vitamin C to boost the immune system"
+          },
+          {
+            "item": "Ginger tea",
+            "portion": "1 cup",
+            "notes": "Soothes nausea and helps with congestion"
+          }
+        ]
+      },
+      
+      "exercisePlan": {
+        "morningExercise": {
+          "activity": "Gentle stretching",
+          "duration": "10 minutes",
+          "notes": "Helps with body aches and keeps muscles flexible"
+        },
+        "afternoonExercise": {
+          "activity": "Light walking indoors",
+          "duration": "15-20 minutes",
+          "notes": "Boosts circulation without straining the body"
+        },
+        "eveningExercise": {
+          "activity": "Breathing exercises",
+          "duration": "10 minutes",
+          "notes": "Helps ease congestion and promote relaxation"
+        }
+      }
+    },
+    {
+        "disease": "Malaria",
+        "goal": "To support recovery, maintain hydration, and manage symptoms",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Warm porridge",
+              "portion": "1 cup",
+              "notes": "Easily digestible and provides necessary carbohydrates"
+            },
+            {
+              "item": "Fresh fruit smoothie",
+              "portion": "1 cup",
+              "notes": "Rich in vitamins and hydration"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Chicken or fish broth with vegetables",
+              "portion": "1 bowl",
+              "notes": "Nourishing and helps maintain fluid balance"
+            },
+            {
+              "item": "Brown rice",
+              "portion": "1/2 cup",
+              "notes": "Provides energy and is gentle on the stomach"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Steamed vegetables with lentils",
+              "portion": "1 cup vegetables, 1/2 cup lentils",
+              "notes": "High in vitamins and protein, supports recovery"
+            },
+            {
+              "item": "Boiled potatoes",
+              "portion": "1 cup",
+              "notes": "Easy to digest and provides energy"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Hydrating fruits (e.g., watermelon, oranges)",
+              "portion": "1 serving",
+              "notes": "Helps maintain hydration and provides vitamins"
+            },
+            {
+              "item": "Ginger tea",
+              "portion": "1 cup",
+              "notes": "Helps soothe nausea and aids digestion"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Gentle stretching",
+            "duration": "10 minutes",
+            "notes": "Helps with muscle aches and keeps the body flexible"
+          },
+          "afternoonExercise": {
+            "activity": "Short, light walks indoors",
+            "duration": "10-15 minutes",
+            "notes": "Boosts circulation without overexerting"
+          },
+          "eveningExercise": {
+            "activity": "Breathing exercises",
+            "duration": "10 minutes",
+            "notes": "Helps with relaxation and breathing difficulties"
+          }
+        }
+    },
+    {
+        "disease": "Cancer",
+        "goal": "To support overall health, manage treatment side effects, and boost immune function",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Smoothie with spinach, banana, and berries",
+              "portion": "1 cup",
+              "notes": "Rich in antioxidants and vitamins"
+            },
+            {
+              "item": "Whole grain toast with avocado",
+              "portion": "1 slice",
+              "notes": "Provides healthy fats and fiber"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Grilled chicken or tofu salad",
+              "portion": "150g protein, 2 cups mixed greens",
+              "notes": "High in protein and fiber, helps with tissue repair"
+            },
+            {
+              "item": "Quinoa or brown rice",
+              "portion": "1/2 cup",
+              "notes": "Whole grains for sustained energy"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked fish with steamed vegetables",
+              "portion": "150g fish, 1 cup vegetables",
+              "notes": "Rich in omega-3s and vitamins"
+            },
+            {
+              "item": "Sweet potato",
+              "portion": "1 medium",
+              "notes": "High in vitamins and fiber"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Nuts and seeds",
+              "portion": "1/4 cup",
+              "notes": "Provides healthy fats and protein"
+            },
+            {
+              "item": "Greek yogurt with honey",
+              "portion": "1/2 cup",
+              "notes": "Protein-rich and soothing"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Gentle yoga",
+            "duration": "20 minutes",
+            "notes": "Improves flexibility and reduces stress"
+          },
+          "afternoonExercise": {
+            "activity": "Short, light walks",
+            "duration": "20-30 minutes",
+            "notes": "Boosts mood and maintains circulation"
+          },
+          "eveningExercise": {
+            "activity": "Breathing exercises or meditation",
+            "duration": "15 minutes",
+            "notes": "Helps with relaxation and stress management"
+          }
+        }
+      }
+
+
+
+    ]
+  }
+  
