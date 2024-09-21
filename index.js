@@ -7,13 +7,16 @@ import getLocationForCure from "./Routes/getLocationBestForCure.js"
 import getCureDiseaseByExcersise from "./Routes/getCureDiseaseByEx.js"
 import personalisedPlan from "./Routes/get_personalisedPlan.js"
 import getalldisease from "./Routes/getallDiseases.js"
-
+import apiKeyMiddleware from "./Middleware/ApiAuth.js";
+import loger from "morgan"
 const app= express();
 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(apiKeyMiddleware)
+app.use(loger("dev"))
 app.use('/',getDiseases)
 app.use('/', getdiseasesById)
 app.use('/', getdisesesBySymp)

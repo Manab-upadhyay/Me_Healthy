@@ -1,6 +1,7 @@
 import express from "express"
 const router = express.Router();
 import diseasesData from '../data/data.json' with { type: "json" };
+import redisClient from "../redis";
 
 router.get('/api/getLocationBestForCure',(req,res)=>{
     try {
@@ -13,6 +14,11 @@ router.get('/api/getLocationBestForCure',(req,res)=>{
 
         const locationArray = locationParams.split(',').map(location => location.trim().toLowerCase());
         console.log(locationArray);
+        const cacheKey= `loc_${locationArray.join(',')}`
+        if(cacheKey){
+            console.log('Cache hit for:', cacheKey);
+            return res.status(200).json(JSON.parse(cachedData));
+        }
 
         // Filter diseases based on location
         const filteredData = diseasesData.diseases.filter(disease => {
@@ -26,6 +32,7 @@ router.get('/api/getLocationBestForCure',(req,res)=>{
         });
         console.log(filteredData)
         if (Array.isArray(filteredData) && filteredData.length > 0) {
+            redisClient.setEx(cacheKey, 3600, JSON.stringify(filteredData));
             return res.status(200).json(filteredData);
         } else {
             return res.status(404).json({ error: `No data found for the locations: ${locationArray.join(', ')}` });
