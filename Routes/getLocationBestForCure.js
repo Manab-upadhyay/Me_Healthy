@@ -1,9 +1,9 @@
 import express from "express"
 const router = express.Router();
 import diseasesData from '../data/data.json' with { type: "json" };
-import redisClient from "../redis";
+import redisClient from "../redis.js";
 
-router.get('/api/getLocationBestForCure',(req,res)=>{
+router.get('/api/getLocationBestForCure',async(req,res)=>{
     try {
         const locationParams = req.query.Location;
         console.log(locationParams);
@@ -15,7 +15,8 @@ router.get('/api/getLocationBestForCure',(req,res)=>{
         const locationArray = locationParams.split(',').map(location => location.trim().toLowerCase());
         console.log(locationArray);
         const cacheKey= `loc_${locationArray.join(',')}`
-        if(cacheKey){
+        const cachedData = await redisClient.get(cacheKey);
+        if(cachedData){
             console.log('Cache hit for:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));
         }

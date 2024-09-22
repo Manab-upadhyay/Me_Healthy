@@ -3,7 +3,7 @@ import express from "express";
 import plans from '../data/plan.json' with { type: "json" };
 import plans1 from '../data/plan2.json' with { type: "json" };
 import plan2 from '../data/plan3.json' with { type: "json" };
-import redisClient from "../redis";
+import redisClient from "../redis.js";
 const router = express.Router();
 
 router.get('/api/personalisedPlan', async(req, res) => {

@@ -2,7 +2,7 @@ import express from "express";
 import diseasesData from '../data/data.json' with { type: "json" };
 import data_hindi from "../data/data-hi.json" with { type: "json" };
 import data_hindi1 from "../data/data-hi-1.json" with { type: "json" };
-import redisClient from "../redis";
+import redisClient from "../redis.js";
 const router = express.Router();
 
 router.get('/api/getDiseasesById/:id', async(req, res) => {

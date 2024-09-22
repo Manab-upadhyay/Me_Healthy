@@ -1,6 +1,7 @@
 import express from "express"
 const  router= express.Router();
 import diseasesData from '../data/data.json' with { type: "json" };
+import redisClient from "../redis.js";
 router.get('/api/getDiseasesBySymptom', async (req, res) => {
     try {
         const symptomQuery = req.query.symptoms;
@@ -45,3 +46,4 @@ router.get('/api/getDiseasesBySymptom', async (req, res) => {
         return res.status(500).json({ error: "Internal Server Error" });
     }
 });
+export default router
