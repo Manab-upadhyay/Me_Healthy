@@ -46,7 +46,7 @@ router.get('/api/getDiseasesById/:id', async(req, res) => {
                 redisClient.setEx(cacheKey, 3600, JSON.stringify(data));
                 return res.status(200).json(data);
             } else {
-                return res.status(404).json({ error: `No disease found corresponding to the id: ${params}` });
+                return res.status(404).json({ error: `No disease found corresponding to the id: ${params},re-check your querry` });
             }
         }
     } catch (error) {

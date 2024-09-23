@@ -41,7 +41,7 @@ router.get('/api/personalisedPlan', async(req, res) => {
 
         // If the disease is not found, return 404
         if (!data) {
-            return res.status(404).json({ error: `No plan found for the disease: ${query}` });
+            return res.status(404).json({ error: `No plan found for the disease: ${query}, re-check your querry` });
         }
 
         // Send the found data as a response

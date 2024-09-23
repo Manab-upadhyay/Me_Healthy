@@ -9,14 +9,19 @@ import personalisedPlan from "./Routes/get_personalisedPlan.js"
 import getalldisease from "./Routes/getallDiseases.js"
 import apiKeyMiddleware from "./Middleware/ApiAuth.js";
 import loger from "morgan"
-const app= express();
+import dotenv from 'dotenv';
 
+
+import apiLimiter from "./rateLimiter.js";
+const app= express();
+dotenv.config()
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(apiKeyMiddleware)
 app.use(loger("dev"))
+app.use('/api/', apiLimiter);
 app.use('/',getDiseases)
 app.use('/', getdiseasesById)
 app.use('/', getdisesesBySymp)

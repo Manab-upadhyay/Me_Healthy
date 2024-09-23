@@ -39,7 +39,7 @@ router.get('/api/getDiseasesBySymptom', async (req, res) => {
             redisClient.setEx(cacheKey, 3600, JSON.stringify(data));
             return res.status(200).json({ data });
         } else {
-            return res.status(404).send({ error: `Data not found for symptoms: ${symptomsArray}` });
+            return res.status(404).send({ error: `Data not found for symptoms: ${symptomsArray},re-check your querry` });
         }
     } catch (error) {
         console.log(`Error: ${error.message}`);
