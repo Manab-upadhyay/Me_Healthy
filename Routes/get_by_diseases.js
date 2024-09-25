@@ -24,7 +24,7 @@ router.get('/api/getDiseases', async(req, res) => {
         const cachedData = await redisClient.get(cacheKey);
       
 
-        if (cachedData) {
+        if (cachedData&&cachedData.length>0) {
             // If data is found in the cache, return it
             console.log('Cache hit:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));
@@ -56,7 +56,7 @@ router.get('/api/getDiseases', async(req, res) => {
             }
 
             // If the request is for English data
-            if (language && language !== 'hindi') {
+            if (language && language !== 'hindi'&&language!='en') {
                 return res.status(400).json({ error: "Language not supported." });
             } else {
                 // Searching for the disease in English data

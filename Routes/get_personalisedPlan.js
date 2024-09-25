@@ -27,7 +27,7 @@ router.get('/api/personalisedPlan', async(req, res) => {
         const cachedData = await redisClient.get(cacheKey);
       
 
-        if (cachedData) {
+        if (cachedData&&cachedData.length>0) {
             // If data is found in the cache, return it
             console.log('Cache hit:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));
@@ -37,7 +37,9 @@ router.get('/api/personalisedPlan', async(req, res) => {
         // Find the matching disease plan
         const data = plans.personalizedPlan.find(disease => disease.disease?.includes(normalised))||plans1.personalizedPlan.find(disease => disease.disease?.includes(normalised))
         ||plan2.personalizedPlan.find(disease => disease.disease?.includes(normalised))
+        if(data){
         redisClient.setEx(cacheKey, 3600, JSON.stringify(data));
+        }
 
         // If the disease is not found, return 404
         if (!data) {

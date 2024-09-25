@@ -16,7 +16,7 @@ router.get('/api/getLocationBestForCure',async(req,res)=>{
         console.log(locationArray);
         const cacheKey= `loc_${locationArray.join(',')}`
         const cachedData = await redisClient.get(cacheKey);
-        if(cachedData){
+        if(cachedData&&cachedData.length>0){
             console.log('Cache hit for:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));
         }

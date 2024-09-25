@@ -18,7 +18,7 @@ router.get('/api/getDiseasesBySymptom', async (req, res) => {
         const cacheKey = `symptoms_${symptomsArray.join(',')}`;
         const cachedData = await redisClient.get(cacheKey);
 
-        if (cachedData) {
+        if (cachedData&&cachedData.length>0) {
             // If data is found in the cache, filter it based on the symptoms provided
             console.log('Cache hit for:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));

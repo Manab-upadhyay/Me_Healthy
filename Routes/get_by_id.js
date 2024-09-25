@@ -17,7 +17,7 @@ router.get('/api/getDiseasesById/:id', async(req, res) => {
         const cachedData = await redisClient.get(cacheKey);
       
 
-        if (cachedData) {
+        if (cachedData&&cachedData.length>0) {
             // If data is found in the cache, return it
             console.log('Cache hit:', cacheKey);
             return res.status(200).json(JSON.parse(cachedData));
@@ -46,7 +46,7 @@ router.get('/api/getDiseasesById/:id', async(req, res) => {
                 redisClient.setEx(cacheKey, 3600, JSON.stringify(data));
                 return res.status(200).json(data);
             } else {
-                return res.status(404).json({ error: `No disease found corresponding to the id: ${params},re-check your querry` });
+                return res.status(404).json({ error: `No disease found corresponding to the id: ${params}` });
             }
         }
     } catch (error) {
