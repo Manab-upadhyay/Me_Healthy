@@ -1,0 +1,48 @@
+{
+    "disease":[
+        {
+            "id": "36",
+            "diseaseName": "Common Cold",
+            "description": "The common cold is a viral infection of the upper respiratory tract, primarily affecting the nose and throat. It is caused by various viruses, most commonly rhinoviruses. Colds are highly contagious and can spread easily through respiratory droplets when an infected person coughs or sneezes.",
+            "symptoms": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Sneezing",
+                "Fatigue",
+                "Mild headache",
+                "Body aches",
+                "Low-grade fever"
+            ],
+            "treatment": [
+                "Rest and hydration",
+                "Over-the-counter cold medications (decongestants, antihistamines)",
+                "Throat lozenges or sprays",
+                "Warm saltwater gargle for sore throat",
+                "Humidifier use to relieve nasal congestion"
+            ],
+            "bestLocationForTreatment": {
+                "locations": ["Any location with access to basic healthcare facilities"]
+            },
+            "preventionTips": [
+                "Wash hands frequently with soap and water",
+                "Avoid close contact with infected individuals",
+                "Cover your mouth and nose with a tissue or elbow when coughing or sneezing",
+                "Avoid touching your face with unwashed hands",
+                "Stay home when you are sick"
+            ],
+            "recoveryTime": "Usually 7 to 10 days, depending on the individual's immune system and overall health.",
+            "costEstimate": "Varies, typically low for over-the-counter medications, usually less than $20.",
+            "keywords": [
+                "viral infection",
+                "upper respiratory tract",
+                "rhinovirus",
+                "contagious",
+                "symptoms relief",
+                "hydration"
+            ],
+            "error": "false"
+        }
+        
+    ]
+}

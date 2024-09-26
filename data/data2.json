@@ -1,0 +1,229 @@
+{"diseases":[
+    {
+        "id": "24",
+        "diseaseName": "Kidney Stones",
+        "description": "Kidney stones are hard deposits made of minerals and salts that form inside the kidneys. They can affect the urinary tract and are often painful when passing.",
+        "symptoms": [
+          "Severe pain in the side and back, below the ribs",
+          "Pain that radiates to the lower abdomen and groin",
+          "Painful urination",
+          "Pink, red, or brown urine",
+          "Nausea and vomiting"
+        ],
+        "treatment": [
+          "Pain relievers",
+          "Drinking lots of water to help pass the stone",
+          "Medical procedures like shock wave lithotripsy or surgery for larger stones"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Chennai", "Bangalore", "Delhi"]
+        },
+        "preventionTips": [
+          "Drink plenty of water",
+          "Reduce salt intake",
+          "Limit foods high in oxalate like spinach and nuts"
+        ],
+        "recoveryTime": "Few days to several weeks depending on the size of the stone",
+        "costEstimate": "$500-$2,000 for medical treatment",
+        "keywords": [
+          "kidney pain",
+          "urinary tract",
+          "stones",
+          "painful urination",
+          "mineral deposits"
+        ],
+        "error": "false"
+      },
+      {
+        "id": "25",
+        "diseaseName": "Tuberculosis (TB)",
+        "description": "Tuberculosis is a serious infectious disease that primarily affects the lungs, caused by the bacteria Mycobacterium tuberculosis. It spreads through airborne droplets when an infected person coughs or sneezes. TB can be latent or active, and timely treatment is crucial to prevent complications.",
+        "symptoms": [
+          "Persistent cough lasting more than 3 weeks",
+          "Coughing up blood",
+          "Chest pain or pain with breathing or coughing",
+          "Unintentional weight loss",
+          "Fever and night sweats",
+          "Fatigue"
+        ],
+        "treatment": [
+          "Antibiotic therapy (usually a combination of drugs taken for 6 to 9 months)",
+          "Directly observed therapy (DOT) to ensure the full course of antibiotics is completed"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Delhi", "Mumbai", "Kolkata"]
+        },
+        "preventionTips": [
+          "Vaccination with the Bacillus Calmette-Guérin (BCG) vaccine",
+          "Wearing masks in high-risk areas",
+          "Good ventilation in living spaces",
+          "Complete antibiotic treatment if infected to avoid drug-resistant TB"
+        ],
+        "recoveryTime": "6 to 9 months depending on treatment adherence",
+        "costEstimate": "$500-$1,500 for a full treatment course, depending on the healthcare facility",
+        "keywords": [
+          "lung infection",
+          "chronic cough",
+          "antibiotic resistance",
+          "coughing blood",
+          "fatigue",
+          "airborne disease"
+        ],
+        "error": "false"
+      },
+      {
+        "id": "26",
+        "diseaseName": "Chickenpox",
+        "description": "Chickenpox is a highly contagious viral infection caused by the varicella-zoster virus. It is characterized by an itchy rash with red spots and blisters, primarily affecting children but can occur in adults as well. Once infected, the virus remains dormant in the body and can reactivate later in life as shingles.",
+        "symptoms": [
+          "Itchy, blister-like rash",
+          "Fever",
+          "Fatigue",
+          "Loss of appetite",
+          "Headache"
+        ],
+        "treatment": [
+          "Antihistamines for itch relief",
+          "Calamine lotion for soothing the skin",
+          "Acetaminophen (Tylenol) for fever reduction",
+          "Antiviral medications in severe cases (e.g., acyclovir)"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Bangalore", "Hyderabad", "Pune"]
+        },
+        "preventionTips": [
+          "Vaccination with the varicella vaccine (two doses recommended)",
+          "Avoid close contact with infected individuals",
+          "Good hygiene practices to prevent the spread"
+        ],
+        "recoveryTime": "1 to 2 weeks",
+        "costEstimate": "$50-$150 for over-the-counter treatments; higher for antiviral medication if prescribed",
+        "keywords": [
+          "varicella-zoster virus",
+          "itchy rash",
+          "blisters",
+          "fever",
+          "chickenpox vaccine",
+          "infectious disease"
+        ],
+        "error": "false"
+      },
+      {
+        "id": "27",
+        "diseaseName": "Epilepsy",
+        "description": "Epilepsy is a neurological disorder in which brain activity becomes abnormal, causing seizures or periods of unusual behavior, sensations, and sometimes loss of awareness. It can occur due to genetic factors, brain injury, or unknown causes. Proper diagnosis and treatment are essential for managing the condition.",
+        "symptoms": [
+          "Recurrent seizures",
+          "Temporary confusion",
+          "Loss of consciousness or awareness",
+          "Uncontrollable jerking movements of the arms and legs",
+          "Psychic symptoms (e.g., fear, anxiety)"
+        ],
+        "treatment": [
+          "Anti-seizure medications",
+          "Vagus nerve stimulation",
+          "Ketogenic diet",
+          "Surgical intervention in severe cases",
+          "Lifestyle changes to avoid seizure triggers"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Bangalore", "Delhi", "Mumbai"]
+        },
+        "preventionTips": [
+          "Adherence to prescribed medications",
+          "Avoiding known seizure triggers such as stress, sleep deprivation, and alcohol",
+          "Regular sleep and healthy diet"
+        ],
+        "recoveryTime": "Long-term management",
+        "costEstimate": "$100-$500 per month depending on treatment and medications",
+        "keywords": [
+          "neurological disorder",
+          "seizures",
+          "anti-epileptic drugs",
+          "brain activity",
+          "convulsions",
+          "vagus nerve stimulation"
+        ],
+        "error": "false"
+      },
+      {
+        "id": "28",
+        "diseaseName": "Parkinson's Disease",
+        "description": "Parkinson's Disease is a progressive nervous system disorder that affects movement. It develops gradually, starting with a barely noticeable tremor in one hand, but it can lead to stiffness, slow movement, and difficulties with balance. It is caused by the loss of dopamine-producing neurons in the brain.",
+        "symptoms": [
+          "Tremors (shaking) in hands, arms, legs, jaw, or head",
+          "Slowness of movement (bradykinesia)",
+          "Muscle stiffness",
+          "Impaired balance and coordination",
+          "Speech changes",
+          "Writing difficulties"
+        ],
+        "treatment": [
+          "Medications such as Levodopa and dopamine agonists",
+          "Deep brain stimulation (DBS)",
+          "Physical therapy",
+          "Occupational therapy",
+          "Speech therapy"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Bangalore", "Delhi", "Kolkata", "Hyderabad"]
+        },
+        "preventionTips": [
+          "There is no known way to prevent Parkinson’s Disease, but maintaining a healthy diet, regular exercise, and protecting the brain from injury may help reduce the risk."
+        ],
+        "recoveryTime": "Ongoing management, as Parkinson's is a chronic progressive condition",
+        "costEstimate": "$200-$1000 per month depending on treatment plan",
+        "keywords": [
+          "tremor",
+          "bradykinesia",
+          "dopamine",
+          "deep brain stimulation",
+          "muscle stiffness",
+          "Parkinsonism"
+        ],
+        "error": "false"
+      },
+      {
+        "id": "29",
+        "diseaseName": "Goiter",
+        "description": "Goiter is an abnormal enlargement of the thyroid gland, often caused by iodine deficiency. It can result in difficulty swallowing, breathing issues, and visible swelling in the neck.",
+        "symptoms": [
+          "Swelling at the base of the neck",
+          "Tightness in the throat",
+          "Difficulty swallowing",
+          "Difficulty breathing",
+          "Coughing",
+          "Hoarseness"
+        ],
+        "treatment": [
+          "Iodine supplements (for deficiency-related goiter)",
+          "Thyroid hormone replacement therapy",
+          "Surgery in severe cases"
+        ],
+        "bestLocationForTreatment": {
+          "locations": ["Specialized endocrinology clinics or hospitals with thyroid care units"]
+        },
+        "preventionTips": [
+          "Consume iodized salt",
+          "Ensure adequate intake of iodine through diet"
+        ],
+        "recoveryTime": "Varies depending on severity and treatment method",
+        "costEstimate": "$100-$500 depending on treatment type (surgery is more expensive)",
+        "keywords": [
+          "thyroid",
+          "iodine deficiency",
+          "swollen neck",
+          "thyroid hormone",
+          "iodine"
+        ],
+        "error": "false"
+      }
+      
+      
+      
+
+      
+      
+      
+]
+}

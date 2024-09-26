@@ -1,0 +1,218 @@
+{
+    "disease":[
+        {
+            "id": "30",
+            "diseaseName": "Scurvy",
+            "description": "Scurvy is a disease caused by a severe deficiency of vitamin C (ascorbic acid), which is vital for the production of collagen in the body. It can lead to anemia, weakness, gum disease, and skin problems.",
+            "symptoms": [
+              "Fatigue",
+              "Swollen and bleeding gums",
+              "Joint pain",
+              "Small red or purple spots on the skin",
+              "Poor wound healing",
+              "Anemia"
+            ],
+            "treatment": [
+              "Vitamin C supplements",
+              "Eating vitamin C-rich foods (oranges, lemons, strawberries, bell peppers)"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["Any general healthcare provider or hospital with a focus on nutritional deficiencies"]
+            },
+            "preventionTips": [
+              "Maintain a diet rich in fruits and vegetables that contain vitamin C"
+            ],
+            "recoveryTime": "Within 1-2 weeks with proper treatment",
+            "costEstimate": "Low, generally under $20 for treatment with supplements",
+            "keywords": [
+              "vitamin C",
+              "collagen",
+              "bleeding gums",
+              "fatigue",
+              "poor wound healing"
+            ],
+            "error": "false"
+          },
+          {
+            "id": "9",
+            "diseaseName": "Appendicitis",
+            "description": "Appendicitis is the inflammation of the appendix, a small tube connected to the large intestine. If untreated, the appendix can burst and cause life-threatening infection.",
+            "symptoms": [
+              "Severe pain in the lower right abdomen",
+              "Nausea and vomiting",
+              "Loss of appetite",
+              "Fever",
+              "Abdominal swelling"
+            ],
+            "treatment": [
+              "Surgical removal of the appendix (appendectomy)",
+              "Antibiotics before surgery"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["General hospitals with emergency surgical care"]
+            },
+            "preventionTips": [
+              "There are no specific prevention measures for appendicitis"
+            ],
+            "recoveryTime": "1-3 weeks depending on surgical recovery",
+            "costEstimate": "$5,000-$30,000 depending on hospital and region",
+            "keywords": [
+              "appendix",
+              "abdominal pain",
+              "appendectomy",
+              "infection",
+              "surgery"
+            ],
+            "error": "false"
+          },
+          {
+            "id": "32",
+            "diseaseName": "Rickets",
+            "description": "Rickets is a skeletal disorder caused by a lack of vitamin D, calcium, or phosphate. It leads to softening and weakening of the bones, primarily in children.",
+            "symptoms": [
+              "Delayed growth",
+              "Bone pain",
+              "Muscle weakness",
+              "Bowed legs",
+              "Thickened wrists and ankles",
+              "Dental problems"
+            ],
+            "treatment": [
+              "Vitamin D and calcium supplements",
+              "Increased exposure to sunlight",
+              "Dietary changes to include vitamin D-rich foods"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["Pediatric hospitals or clinics with focus on nutritional deficiencies and bone health"]
+            },
+            "preventionTips": [
+              "Ensure adequate vitamin D through diet or sunlight",
+              "Give children vitamin D supplements as needed"
+            ],
+            "recoveryTime": "Several months with proper treatment",
+            "costEstimate": "$50-$200 for supplements and treatment",
+            "keywords": [
+              "vitamin D",
+              "bone weakness",
+              "bowed legs",
+              "calcium deficiency",
+              "sunlight exposure"
+            ],
+            "error": "false"
+          },
+          {
+            "id": "33",
+            "diseaseName": "Anemia",
+            "description": "Anemia is a condition in which the blood doesn't have enough healthy red blood cells or hemoglobin. This leads to reduced oxygen flow to the body's organs, causing fatigue and other symptoms.",
+            "symptoms": [
+              "Fatigue",
+              "Weakness",
+              "Pale or yellowish skin",
+              "Shortness of breath",
+              "Dizziness",
+              "Cold hands and feet"
+            ],
+            "treatment": [
+              "Iron supplements",
+              "Vitamin B12 and folate supplements",
+              "Blood transfusions (in severe cases)",
+              "Treating underlying conditions"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["General healthcare providers, hematology clinics"]
+            },
+            "preventionTips": [
+              "Eat a diet rich in iron, folate, and B12",
+              "Manage chronic diseases",
+              "Take supplements if recommended by a healthcare provider"
+            ],
+            "recoveryTime": "Varies based on the cause and treatment of anemia",
+            "costEstimate": "$50-$500 depending on the severity and treatment",
+            "keywords": [
+              "iron deficiency",
+              "red blood cells",
+              "hemoglobin",
+              "fatigue",
+              "weakness"
+            ],
+            "error": "false"
+          },
+          {
+            "id": "34",
+            "diseaseName": "Asthma",
+            "description": "Asthma is a chronic lung disease that inflames and narrows the airways, making it difficult to breathe. Asthma can be triggered by allergens, exercise, cold air, or stress.",
+            "symptoms": [
+              "Wheezing",
+              "Shortness of breath",
+              "Chest tightness",
+              "Coughing, especially at night"
+            ],
+            "treatment": [
+              "Inhalers (bronchodilators and corticosteroids)",
+              "Oral medications (for severe cases)",
+              "Avoiding asthma triggers"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["Pulmonology clinics, general healthcare providers"]
+            },
+            "preventionTips": [
+              "Identify and avoid asthma triggers",
+              "Use prescribed asthma medication as directed",
+              "Maintain a healthy lifestyle to support lung health"
+            ],
+            "recoveryTime": "Ongoing management; asthma is a chronic condition",
+            "costEstimate": "$50-$300 per month for inhalers and medication",
+            "keywords": [
+              "wheezing",
+              "bronchial tubes",
+              "inhaler",
+              "breathing difficulty",
+              "asthma triggers"
+            ],
+            "error": "false"
+          },
+          {
+            "id": "35",
+            "diseaseName": "Pneumonia",
+            "description": "Pneumonia is an infection that inflames the air sacs in one or both lungs, which can fill with fluid. It can be caused by bacteria, viruses, or fungi, and is more severe in young children, the elderly, and individuals with weakened immune systems.",
+            "symptoms": [
+              "Chest pain",
+              "Cough (with phlegm)",
+              "Fever",
+              "Shortness of breath",
+              "Fatigue",
+              "Confusion (especially in older adults)"
+            ],
+            "treatment": [
+              "Antibiotics (for bacterial pneumonia)",
+              "Antiviral medications (for viral pneumonia)",
+              "Hospitalization in severe cases"
+            ],
+            "bestLocationForTreatment": {
+              "locations": ["Hospitals, urgent care centers, general healthcare providers"]
+            },
+            "preventionTips": [
+              "Get vaccinated (pneumonia vaccine, flu shot)",
+              "Practice good hygiene",
+              "Avoid smoking"
+            ],
+            "recoveryTime": "2-4 weeks depending on severity",
+            "costEstimate": "$200-$5,000 depending on hospitalization and treatment",
+            "keywords": [
+              "lung infection",
+              "chest pain",
+              "phlegm",
+              "bacterial infection",
+              "shortness of breath"
+            ],
+            "error": "false"
+          }
+          
+          
+          
+          
+          
+          
+          
+    ]
+}
