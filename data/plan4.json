@@ -1,0 +1,292 @@
+{
+    "personalizedPlan": [
+      {
+        "disease": "Scurvy",
+        "goal": "To restore vitamin C levels, promote collagen production, and support overall health recovery",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Orange juice or fresh oranges",
+              "portion": "1 cup or 1 medium orange",
+              "notes": "High in vitamin C, essential for recovery"
+            },
+            {
+              "item": "Whole grain toast with avocado",
+              "portion": "1 slice",
+              "notes": "Provides healthy fats and additional vitamins"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Kale and spinach salad with grilled chicken",
+              "portion": "2 cups greens, 150g chicken",
+              "notes": "Rich in vitamin C and protein for tissue repair"
+            },
+            {
+              "item": "Quinoa with bell peppers",
+              "portion": "1/2 cup quinoa, 1/2 cup bell peppers",
+              "notes": "Bell peppers are high in vitamin C, while quinoa provides essential amino acids"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked salmon with broccoli",
+              "portion": "150g salmon, 1 cup broccoli",
+              "notes": "Salmon provides healthy fats, and broccoli is rich in vitamin C"
+            },
+            {
+              "item": "Sweet potato",
+              "portion": "1 medium",
+              "notes": "Rich in vitamins and minerals, supports immune function"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Strawberries with almonds",
+              "portion": "1/2 cup strawberries, 1/4 cup almonds",
+              "notes": "Strawberries are high in vitamin C, and almonds provide healthy fats"
+            },
+            {
+              "item": "Red bell pepper slices with hummus",
+              "portion": "1/2 cup bell peppers, 2 tbsp hummus",
+              "notes": "Bell peppers provide vitamin C, and hummus offers fiber and protein"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Light stretching or yoga",
+            "duration": "15-20 minutes",
+            "notes": "Helps improve circulation and flexibility, supporting overall recovery"
+          },
+          "afternoonExercise": {
+            "activity": "Short walk",
+            "duration": "20 minutes",
+            "notes": "Boosts energy and mood, gentle enough for recovery"
+          },
+          "eveningExercise": {
+            "activity": "Breathing exercises or meditation",
+            "duration": "10-15 minutes",
+            "notes": "Promotes relaxation and aids in stress management"
+          }
+        }
+      },
+      {
+        "disease": "Appendicitis",
+        "goal": "To support recovery from surgery, reduce inflammation, and promote healing",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Oatmeal with honey and soft fruits",
+              "portion": "1 cup oatmeal, 1 tbsp honey, 1/2 cup soft fruits (e.g., bananas)",
+              "notes": "Easy to digest, provides fiber and energy for recovery"
+            },
+            {
+              "item": "Greek yogurt",
+              "portion": "1/2 cup",
+              "notes": "High in protein, helps with gut health and post-surgery recovery"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Boiled chicken breast with mashed potatoes",
+              "portion": "150g chicken, 1/2 cup mashed potatoes",
+              "notes": "Lean protein and easily digestible carbs to support tissue repair"
+            },
+            {
+              "item": "Steamed carrots or zucchini",
+              "portion": "1 cup",
+              "notes": "Rich in vitamins and gentle on the digestive system"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked cod with plain white rice",
+              "portion": "150g cod, 1/2 cup rice",
+              "notes": "Low in fat and easy to digest, provides protein and energy"
+            },
+            {
+              "item": "Steamed green beans",
+              "portion": "1 cup",
+              "notes": "Contains fiber and essential nutrients, gentle on the stomach"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Apple sauce",
+              "portion": "1/2 cup",
+              "notes": "Soft and easy to digest, provides natural sugars and vitamins"
+            },
+            {
+              "item": "Crackers with low-fat cheese",
+              "portion": "5 crackers, 1 slice cheese",
+              "notes": "Light, easy-to-digest snack, offers mild protein and carbs"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Gentle stretching",
+            "duration": "10-15 minutes",
+            "notes": "Helps with blood circulation and flexibility post-surgery"
+          },
+          "afternoonExercise": {
+            "activity": "Short, slow walk",
+            "duration": "15-20 minutes",
+            "notes": "Aids in recovery by boosting circulation and preventing blood clots"
+          },
+          "eveningExercise": {
+            "activity": "Deep breathing exercises",
+            "duration": "10 minutes",
+            "notes": "Promotes relaxation and reduces post-surgery stress"
+          }
+        }
+      },
+      {
+        "disease": "Rickets",
+        "goal": "To improve bone health, correct vitamin D deficiency, and promote overall growth and development",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Fortified milk with whole grain cereal",
+              "portion": "1 cup milk, 1/2 cup cereal",
+              "notes": "Rich in calcium and fortified with vitamin D to support bone health"
+            },
+            {
+              "item": "Scrambled eggs",
+              "portion": "2 eggs",
+              "notes": "Provides vitamin D and protein for bone growth and repair"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Grilled salmon with steamed spinach",
+              "portion": "150g salmon, 1 cup spinach",
+              "notes": "Salmon is high in vitamin D and omega-3 fatty acids, spinach is rich in calcium"
+            },
+            {
+              "item": "Quinoa",
+              "portion": "1/2 cup",
+              "notes": "A good source of essential amino acids and supports overall health"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked chicken with broccoli",
+              "portion": "150g chicken, 1 cup broccoli",
+              "notes": "Chicken provides protein and minerals, while broccoli is rich in calcium"
+            },
+            {
+              "item": "Sweet potato",
+              "portion": "1 medium",
+              "notes": "Rich in vitamins and minerals, supports immune function and bone health"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Yogurt with chia seeds",
+              "portion": "1/2 cup yogurt, 1 tbsp chia seeds",
+              "notes": "Provides calcium, vitamin D, and omega-3 fatty acids"
+            },
+            {
+              "item": "Carrot sticks with hummus",
+              "portion": "1 cup carrot sticks, 2 tbsp hummus",
+              "notes": "Rich in vitamins and healthy fats, supports overall health"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Sun exposure for natural vitamin D",
+            "duration": "15-20 minutes",
+            "notes": "Helps the body produce vitamin D naturally"
+          },
+          "afternoonExercise": {
+            "activity": "Light weight-bearing exercises (e.g., walking, playing)",
+            "duration": "20-30 minutes",
+            "notes": "Strengthens bones and muscles"
+          },
+          "eveningExercise": {
+            "activity": "Stretching or light yoga",
+            "duration": "10-15 minutes",
+            "notes": "Improves flexibility and supports bone health"
+          }
+        }
+      },
+      {
+        "disease": "Pneumonia",
+        "goal": "To support lung function, enhance recovery, and improve overall health",
+        "dietPlan": {
+          "breakfast": [
+            {
+              "item": "Oatmeal with honey and berries",
+              "portion": "1 cup",
+              "notes": "Rich in fiber and antioxidants, supports immune health"
+            },
+            {
+              "item": "Scrambled eggs",
+              "portion": "2 eggs",
+              "notes": "Provides protein and essential nutrients for recovery"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Grilled chicken soup with vegetables",
+              "portion": "1 bowl (about 2 cups)",
+              "notes": "Warm broth helps with hydration and provides protein"
+            },
+            {
+              "item": "Whole grain bread",
+              "portion": "1 slice",
+              "notes": "Provides fiber and complex carbohydrates for energy"
+            }
+          ],
+          "dinner": [
+            {
+              "item": "Baked fish with steamed asparagus",
+              "portion": "150g fish, 1 cup asparagus",
+              "notes": "Fish is rich in omega-3 fatty acids, and asparagus is high in vitamins"
+            },
+            {
+              "item": "Brown rice",
+              "portion": "1/2 cup",
+              "notes": "Provides energy and essential nutrients"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Greek yogurt with fruit",
+              "portion": "1/2 cup yogurt, 1/2 cup mixed fruit",
+              "notes": "High in protein and probiotics for gut health"
+            },
+            {
+              "item": "Nuts and seeds",
+              "portion": "1/4 cup",
+              "notes": "Provides healthy fats and protein, supports overall health"
+            }
+          ]
+        },
+        "exercisePlan": {
+          "morningExercise": {
+            "activity": "Breathing exercises",
+            "duration": "10-15 minutes",
+            "notes": "Helps improve lung capacity and oxygenation"
+          },
+          "afternoonExercise": {
+            "activity": "Gentle walking",
+            "duration": "15-20 minutes",
+            "notes": "Promotes circulation and helps with recovery"
+          },
+          "eveningExercise": {
+            "activity": "Stretching or light yoga",
+            "duration": "10-15 minutes",
+            "notes": "Supports relaxation and flexibility"
+          }
+        }
+      }
+
+
+
+    ]
+  }
+  

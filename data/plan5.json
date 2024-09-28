@@ -1,0 +1,435 @@
+{
+    "personalizedPlan":[
+        {
+            "disease": "Common Cold",
+            "goal": "To alleviate symptoms, boost immune function, and promote recovery",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Warm oatmeal with honey and cinnamon",
+                  "portion": "1 cup",
+                  "notes": "Soothes the throat and provides energy"
+                },
+                {
+                  "item": "Fresh fruit (e.g., oranges or kiwi)",
+                  "portion": "1 medium fruit",
+                  "notes": "High in vitamin C to support immune health"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Chicken soup with vegetables",
+                  "portion": "1 bowl (about 2 cups)",
+                  "notes": "Helps with hydration and provides nutrients to fight the cold"
+                },
+                {
+                  "item": "Whole grain crackers",
+                  "portion": "1 serving",
+                  "notes": "Easy to digest and provides complex carbohydrates"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked salmon with sweet potatoes",
+                  "portion": "150g salmon, 1 medium sweet potato",
+                  "notes": "Rich in omega-3s and vitamins that help reduce inflammation"
+                },
+                {
+                  "item": "Steamed broccoli",
+                  "portion": "1 cup",
+                  "notes": "High in antioxidants and supports overall health"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Herbal tea with lemon and honey",
+                  "portion": "1 cup",
+                  "notes": "Soothes the throat and provides hydration"
+                },
+                {
+                  "item": "Nuts and seeds",
+                  "portion": "1/4 cup",
+                  "notes": "Provides healthy fats and boosts energy"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching",
+                "duration": "10-15 minutes",
+                "notes": "Helps improve circulation and reduces stiffness"
+              },
+              "afternoonExercise": {
+                "activity": "Short walk",
+                "duration": "10-20 minutes",
+                "notes": "Boosts mood and energy levels without overexertion"
+              },
+              "eveningExercise": {
+                "activity": "Relaxation techniques (e.g., deep breathing)",
+                "duration": "10 minutes",
+                "notes": "Promotes relaxation and helps with sleep"
+              }
+            }
+          },
+          {
+            "disease": "Kidney Stones",
+            "goal": "To prevent stone formation, promote kidney health, and manage symptoms",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Oatmeal topped with fresh berries",
+                  "portion": "1 cup",
+                  "notes": "High in fiber, aids digestion, and rich in antioxidants"
+                },
+                {
+                  "item": "Low-fat yogurt",
+                  "portion": "1 cup",
+                  "notes": "Provides calcium without excessive protein, beneficial for kidney health"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Quinoa salad with cucumber and tomatoes",
+                  "portion": "1 cup quinoa, 1 cup mixed vegetables",
+                  "notes": "Hydrating and rich in fiber, helps prevent stone formation"
+                },
+                {
+                  "item": "Grilled chicken breast",
+                  "portion": "150g",
+                  "notes": "Lean protein source, avoids high purine content found in some meats"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked fish (e.g., salmon or trout) with steamed broccoli",
+                  "portion": "150g fish, 1 cup broccoli",
+                  "notes": "Omega-3 fatty acids are beneficial for kidney health; broccoli is high in nutrients"
+                },
+                {
+                  "item": "Brown rice",
+                  "portion": "1/2 cup",
+                  "notes": "Whole grain that provides fiber and keeps you full"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Watermelon slices",
+                  "portion": "1 cup",
+                  "notes": "Hydrating fruit that may help flush out stones"
+                },
+                {
+                  "item": "Nuts (e.g., almonds or walnuts)",
+                  "portion": "1/4 cup",
+                  "notes": "Healthy fats and protein but should be consumed in moderation"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Brisk walking",
+                "duration": "20-30 minutes",
+                "notes": "Promotes circulation and helps maintain a healthy weight"
+              },
+              "afternoonExercise": {
+                "activity": "Stretching or yoga",
+                "duration": "15-20 minutes",
+                "notes": "Improves flexibility and reduces stress"
+              },
+              "eveningExercise": {
+                "activity": "Relaxation techniques (e.g., deep breathing or meditation)",
+                "duration": "10-15 minutes",
+                "notes": "Aids in relaxation and can help manage pain"
+              }
+            }
+          },
+          {
+            "disease": "Tuberculosis",
+            "goal": "To support lung health, enhance immune function, and manage symptoms during treatment",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Scrambled eggs with spinach",
+                  "portion": "2 eggs, 1 cup spinach",
+                  "notes": "High in protein and vitamins; spinach provides iron and antioxidants"
+                },
+                {
+                  "item": "Whole grain toast with avocado",
+                  "portion": "1 slice",
+                  "notes": "Provides healthy fats and fiber for energy"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled chicken salad with mixed greens",
+                  "portion": "150g chicken, 2 cups greens",
+                  "notes": "Lean protein and vitamins support immune function"
+                },
+                {
+                  "item": "Brown rice with steamed broccoli",
+                  "portion": "1/2 cup rice, 1 cup broccoli",
+                  "notes": "Whole grains and vegetables provide essential nutrients"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked salmon with quinoa",
+                  "portion": "150g salmon, 1/2 cup quinoa",
+                  "notes": "Rich in omega-3s and protein, beneficial for recovery"
+                },
+                {
+                  "item": "Sweet potato",
+                  "portion": "1 medium",
+                  "notes": "High in vitamins A and C, supports immune health"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Greek yogurt with honey",
+                  "portion": "1/2 cup",
+                  "notes": "Provides protein and probiotics for gut health"
+                },
+                {
+                  "item": "Fresh fruit (e.g., oranges or berries)",
+                  "portion": "1 medium orange or 1 cup berries",
+                  "notes": "High in vitamin C and antioxidants, supports immune function"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching or yoga",
+                "duration": "15-20 minutes",
+                "notes": "Helps improve lung capacity and reduces stress"
+              },
+              "afternoonExercise": {
+                "activity": "Short walks",
+                "duration": "20-30 minutes",
+                "notes": "Improves circulation and overall well-being"
+              },
+              "eveningExercise": {
+                "activity": "Breathing exercises or meditation",
+                "duration": "10-15 minutes",
+                "notes": "Enhances lung function and promotes relaxation"
+              }
+            }
+          },
+          {
+            "disease": "Chickenpox",
+            "goal": "To manage symptoms, promote healing, and support overall health during recovery",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Oatmeal with honey and bananas",
+                  "portion": "1 cup oatmeal, 1 medium banana",
+                  "notes": "High in fiber and easy to digest, soothing for the stomach"
+                },
+                {
+                  "item": "Smoothie with spinach and yogurt",
+                  "portion": "1 cup",
+                  "notes": "Rich in vitamins and probiotics to support immune health"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Chicken soup with vegetables",
+                  "portion": "1 bowl (2 cups)",
+                  "notes": "Hydrating and soothing, helps to relieve symptoms and provides nutrients"
+                },
+                {
+                  "item": "Whole grain toast with avocado",
+                  "portion": "1 slice",
+                  "notes": "Healthy fats and fiber for energy and recovery"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked fish with steamed carrots",
+                  "portion": "150g fish, 1 cup carrots",
+                  "notes": "Rich in omega-3s and vitamins, supports healing"
+                },
+                {
+                  "item": "Brown rice or quinoa",
+                  "portion": "1/2 cup",
+                  "notes": "Whole grains for sustained energy and nutrients"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Applesauce or mashed bananas",
+                  "portion": "1/2 cup",
+                  "notes": "Easy to digest and soothing for the stomach"
+                },
+                {
+                  "item": "Yogurt with berries",
+                  "portion": "1/2 cup yogurt, 1/2 cup berries",
+                  "notes": "Rich in probiotics and antioxidants to boost immune function"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle stretching or yoga",
+                "duration": "10-15 minutes",
+                "notes": "Helps to maintain flexibility and reduce discomfort"
+              },
+              "afternoonExercise": {
+                "activity": "Short walks if feeling well",
+                "duration": "15-20 minutes",
+                "notes": "Promotes circulation and overall well-being"
+              },
+              "eveningExercise": {
+                "activity": "Relaxation techniques or meditation",
+                "duration": "10-15 minutes",
+                "notes": "Promotes relaxation and helps with sleep"
+              }
+            }
+          },
+          {
+            "disease": "Epilepsy",
+            "goal": "To manage seizures, support brain health, and maintain overall well-being",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Scrambled eggs with spinach",
+                  "portion": "2 eggs, 1 cup spinach",
+                  "notes": "Rich in protein and nutrients, supports brain health"
+                },
+                {
+                  "item": "Whole grain toast with almond butter",
+                  "portion": "1 slice",
+                  "notes": "Provides healthy fats and fiber for sustained energy"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled chicken salad with mixed greens",
+                  "portion": "150g chicken, 2 cups mixed greens",
+                  "notes": "High in protein and antioxidants, promotes overall health"
+                },
+                {
+                  "item": "Quinoa with roasted vegetables",
+                  "portion": "1/2 cup quinoa, 1 cup vegetables",
+                  "notes": "Complex carbs for energy and fiber for digestion"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked salmon with asparagus",
+                  "portion": "150g salmon, 1 cup asparagus",
+                  "notes": "Rich in omega-3 fatty acids, supports brain function"
+                },
+                {
+                  "item": "Sweet potato mash",
+                  "portion": "1 medium potato",
+                  "notes": "High in vitamins and minerals, good for overall health"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Nuts and seeds",
+                  "portion": "1/4 cup",
+                  "notes": "Provides healthy fats, protein, and fiber"
+                },
+                {
+                  "item": "Greek yogurt with berries",
+                  "portion": "1/2 cup yogurt, 1/2 cup berries",
+                  "notes": "Rich in probiotics and antioxidants, good for gut health"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle yoga or stretching",
+                "duration": "15-20 minutes",
+                "notes": "Promotes relaxation and flexibility"
+              },
+              "afternoonExercise": {
+                "activity": "Walking or low-impact aerobic exercises",
+                "duration": "20-30 minutes",
+                "notes": "Boosts mood and overall fitness"
+              },
+              "eveningExercise": {
+                "activity": "Mindfulness meditation or breathing exercises",
+                "duration": "10-15 minutes",
+                "notes": "Helps reduce stress and promote relaxation"
+              }
+            }
+          },
+          {
+            "disease": "Goiter",
+            "goal": "To manage thyroid function, promote hormone balance, and support overall health",
+            "dietPlan": {
+              "breakfast": [
+                {
+                  "item": "Greek yogurt with mixed berries",
+                  "portion": "1 cup yogurt, 1/2 cup berries",
+                  "notes": "Provides probiotics and antioxidants for gut health"
+                },
+                {
+                  "item": "Whole grain toast with peanut butter",
+                  "portion": "1 slice toast, 2 tbsp peanut butter",
+                  "notes": "Rich in protein and healthy fats"
+                }
+              ],
+              "lunch": [
+                {
+                  "item": "Grilled chicken salad with spinach",
+                  "portion": "150g chicken, 2 cups spinach",
+                  "notes": "Lean protein and iron-rich spinach support overall health"
+                },
+                {
+                  "item": "Brown rice with steamed broccoli",
+                  "portion": "1/2 cup rice, 1 cup broccoli",
+                  "notes": "Broccoli provides vitamins and minerals beneficial for thyroid health"
+                }
+              ],
+              "dinner": [
+                {
+                  "item": "Baked salmon with quinoa and asparagus",
+                  "portion": "150g salmon, 1/2 cup quinoa, 1 cup asparagus",
+                  "notes": "Salmon is rich in omega-3 fatty acids, important for hormone regulation"
+                },
+                {
+                  "item": "Mixed green salad with olive oil dressing",
+                  "portion": "2 cups salad, 1 tbsp olive oil",
+                  "notes": "Provides healthy fats and fiber"
+                }
+              ],
+              "snacks": [
+                {
+                  "item": "Carrot sticks with hummus",
+                  "portion": "1 cup carrot sticks, 1/4 cup hummus",
+                  "notes": "High in fiber and healthy fats"
+                },
+                {
+                  "item": "Walnuts",
+                  "portion": "1/4 cup",
+                  "notes": "Provides omega-3 fatty acids and supports thyroid function"
+                }
+              ]
+            },
+            "exercisePlan": {
+              "morningExercise": {
+                "activity": "Gentle yoga or stretching",
+                "duration": "20 minutes",
+                "notes": "Helps improve flexibility and reduce stress"
+              },
+              "afternoonExercise": {
+                "activity": "Brisk walking",
+                "duration": "30 minutes",
+                "notes": "Promotes cardiovascular health and boosts mood"
+              },
+              "eveningExercise": {
+                "activity": "Breathing exercises or meditation",
+                "duration": "15 minutes",
+                "notes": "Aids in relaxation and stress management"
+              }
+            }
+          }
+
+
+
+
+
+    ]
+}
