@@ -41,6 +41,7 @@
         "symptoms": [
           "Persistent cough lasting more than 3 weeks",
           "Coughing up blood",
+
           "Chest pain or pain with breathing or coughing",
           "Unintentional weight loss",
           "Fever and night sweats",
@@ -67,7 +68,8 @@
           "antibiotic resistance",
           "coughing blood",
           "fatigue",
-          "airborne disease"
+          "airborne disease",
+          "blood cough"
         ],
         "error": "false"
       },

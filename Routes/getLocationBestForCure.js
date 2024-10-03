@@ -1,6 +1,9 @@
 import express from "express"
 const router = express.Router();
 import diseasesData from '../data/data.json' with { type: "json" };
+import diseasesData2 from "../data/data2.json" with {type:"json"};
+import diseasesData3 from "../data/data3.json" with {type:"json"}
+import diseasesData4 from "../data/data4.json" with {type:"json"}
 import redisClient from "../redis.js";
 
 router.get('/api/getLocationBestForCure',async(req,res)=>{
@@ -22,7 +25,8 @@ router.get('/api/getLocationBestForCure',async(req,res)=>{
         }
 
         // Filter diseases based on location
-        const filteredData = diseasesData.diseases.filter(disease => {
+        const data =[...diseasesData.diseases, ...diseasesData2.diseases,...diseasesData3.diseases,...diseasesData4.diseases]
+        const filteredData = data.filter(disease => {
             // Assuming `bestLocationForTreatment` is an object and `locations` is an array of strings
             const locations = disease.bestLocationForTreatment?.locations
 

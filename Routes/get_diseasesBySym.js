@@ -1,6 +1,9 @@
 import express from "express"
 const  router= express.Router();
 import diseasesData from '../data/data.json' with { type: "json" };
+import diseasesData2 from "../data/data2.json" with {type:"json"};
+import diseasesData3 from"../data/data3.json" with {type:"json"};
+import diseasesData4 from "../data/data4.json" with {type:"json"};
 import redisClient from "../redis.js";
 router.get('/api/getDiseasesBySymptom', async (req, res) => {
     try {
@@ -27,13 +30,32 @@ router.get('/api/getDiseasesBySymptom', async (req, res) => {
 
         // Cache miss; compute and store the data
         console.log('Cache miss for:', cacheKey);
-        const data = diseasesData.diseases.filter(disease =>
-            symptomsArray.every(symptom =>
-                disease.symptoms.some(diseaseSymptom => diseaseSymptom.toLowerCase().includes(symptom)) ||
-                disease?.keywords?.some(keyword => keyword.toLowerCase().includes(symptom))
+        const data = [
+            ...diseasesData.diseases.filter(disease =>
+                symptomsArray.every(symptom =>
+                    disease.symptoms.some(diseaseSymptom => diseaseSymptom.toLowerCase().includes(symptom)) ||
+                    disease?.keywords?.some(keyword => keyword.toLowerCase().includes(symptom))
+                )
+            ),
+            ...diseasesData2.diseases.filter(disease =>
+                symptomsArray.every(symptom =>
+                    disease.symptoms.some(diseaseSymptom => diseaseSymptom.toLowerCase().includes(symptom)) ||
+                    disease?.keywords?.some(keyword => keyword.toLowerCase().includes(symptom))
+                )
+            ),
+            ...diseasesData3.diseases.filter(disease =>
+                symptomsArray.every(symptom =>
+                    disease.symptoms.some(diseaseSymptom => diseaseSymptom.toLowerCase().includes(symptom)) ||
+                    disease?.keywords?.some(keyword => keyword.toLowerCase().includes(symptom))
+                )
+            ),
+            ...diseasesData4.diseases.filter(disease =>
+                symptomsArray.every(symptom =>
+                    disease.symptoms.some(diseaseSymptom => diseaseSymptom.toLowerCase().includes(symptom)) ||
+                    disease?.keywords?.some(keyword => keyword.toLowerCase().includes(symptom))
+                )
             )
-        );
-
+        ];
         if (data.length > 0) {
             // Store the result in Redis for 1 hour
             redisClient.setEx(cacheKey, 3600, JSON.stringify(data));

@@ -1,7 +1,10 @@
 import express from "express";
 import diseasesData from '../data/data.json' with { type: "json" };
+import diseasesData2 from "../data/data2.json" with {type:"json"};
+import diseasesData3 from "../data/data3.json" with {type:"json"};
+import diseasesData4 from "../data/data4.json" with {type:"json"}
 import data_hindi from "../data/data-hi.json" with { type: "json" };
-import data_hindi1 from "../data/data-hi-1.json" with { type: "json" };
+import data_hindi1 from "../data/data-hi-2.json" with { type: "json" };
 import redisClient from "../redis.js";
 const router = express.Router();
 
@@ -40,7 +43,10 @@ router.get('/api/getDiseasesById/:id', async(req, res) => {
                 return res.status(400).json({ error: `${language} language is not supported at this time` });
             }
         } else {
-            const data = diseasesData.diseases.find(disease => disease.id === params);
+            const data = diseasesData.diseases.find(disease => disease.id === params)||
+            diseasesData2.diseases.find(disease => disease.id === params)||
+            diseasesData3.diseases.find(disease => disease.id === params)||
+            diseasesData4.diseases.find(disease => disease.id === params);
 
             if (data) {
                 redisClient.setEx(cacheKey, 3600, JSON.stringify(data));
