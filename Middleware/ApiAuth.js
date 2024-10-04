@@ -4,8 +4,7 @@ const apiKeyMiddleware = (req, res, next) => {
     // Ensure environment variables are set
     const keyName = process.env.KEY_NAME;
     const keyValue = process.env.KEY_VALUE;
-    console.log(keyName)
-
+  
     if (!keyName || !keyValue) {
         console.error("API Key environment variables are not set");
         return res.status(500).json({ error: "Internal Server Error: API Key Configuration Missing" });

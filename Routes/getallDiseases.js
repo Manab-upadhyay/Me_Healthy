@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.get('/api/getAllDiseases', async (req, res) => {
     try {
-        const cacheKey = "EncoderManab";
+        const cacheKey = process.env.CHACKE_KEY;
        
         const cacheData = await redisClient.get(cacheKey);
         

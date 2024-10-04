@@ -9,4 +9,23 @@ scenarios:
           url: "/api/getLocationBestForCure?Location=mumbai,kolkata"
           headers:
             X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"  # Add your API key here
-      
+      - get:
+          url: "http://localhost:7000/api/getDiseases?disease=scurvy"
+          headers:
+            X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"
+      - get:
+          url: "http://localhost:7000/api/getDiseasesBySymptom?symptoms=Fever"
+          headers:
+            X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"
+      - get:
+          url: "http://localhost:7000/api/personalisedPlan?disease=scurvy"
+          headers:
+            X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"   
+      - get:
+          url: "http://localhost:7000/api/getAllDiseases/"
+          headers:
+            X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"
+      - get:
+          url: "http://localhost:7000/api/getDiseasesById/35"
+          headers:
+            X-MeHealthy-API-Key: "mH3@lthy!2024$XyZ9Lf8T7aQk%GwP2VJz"    

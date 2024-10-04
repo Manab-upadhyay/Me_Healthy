@@ -15,7 +15,7 @@ router.get('/api/getDiseasesBySymptom', async (req, res) => {
         }
 
         const symptomsArray = symptomQuery.split(',').map(symptom => symptom.trim().toLowerCase());
-        console.log(symptomsArray);
+     
 
         // Composite key for cache
         const cacheKey = `symptoms_${symptomsArray.join(',')}`;

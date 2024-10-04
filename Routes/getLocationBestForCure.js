@@ -9,14 +9,14 @@ import redisClient from "../redis.js";
 router.get('/api/getLocationBestForCure',async(req,res)=>{
     try {
         const locationParams = req.query.Location;
-        console.log(locationParams);
+       
 
         if (!locationParams) {
             return res.status(400).json({ error: "Location parameter is required" });
         }
 
         const locationArray = locationParams.split(',').map(location => location.trim().toLowerCase());
-        console.log(locationArray);
+        
         const cacheKey= `loc_${locationArray.join(',')}`
         const cachedData = await redisClient.get(cacheKey);
         if(cachedData&&cachedData.length>0){
