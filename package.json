@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"nodemon start.js",
+     "start:prod": "pm2 start start.js --name 'mehealthy' --env production"
   },
   "keywords": [],
   "author": "",

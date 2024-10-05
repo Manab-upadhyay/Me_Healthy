@@ -1,5 +1,5 @@
 import express from "express";
-import diseasesData from '../data/data.json' with { type: "json" };
+import diseasesData from '../data/data.json' with { type: "json" }
 import diseaseData2 from "../data/data2.json" with {type:"json"}
 import diseaseData3 from "../data/data3.json" with {type:"json"}
 import diseaseData4 from "../data/data4.json" with {type:"json"}
